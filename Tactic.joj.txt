@@ -1,0 +1,141 @@
+/Simulateur de Combat tour a tour 5 vs 5 personnage équilibré de même profession.
+/Les forces se répartissent comme suit: (1, 5, 1d10, 2d10, 3d10)
+/Disiplines sont: (Attaque, Defance, Distance, Sort, Soin)
+/Chef->Defance
+/Barbar->Attaque
+/Archer->Distance
+/BlackMage->Sort
+/Guerrisser->Soin
+/Chaque personnage a la possibilité d'exercé les talent des autres personnage mais a son degré de réussite.
+/Par exemple le barbar ne defand pas aussi fort qu'il attaque et s'il lance un sort ou un soin, il y aura peu de résultat.
+/Le Guerrisseur c'est l'inverse, il lance les sorts un peu moin efficasement qu'il fait des soins et pour l'Attaque ou la Defance il n'y a pas de réelle gain ajouté. 
+vrai= ;Vous rencontre un group rival. 5 ennemie de profession différente.;Note.Durant se combat les points de vie seront compté pour l'équipe entière, sans distinction de personnage ni métier.;action=0; 
+element=0
+Liste=Score
+SI=VAR
+vrai=EP=500;HP=500; 
+element=0
+Liste=Score
+SI=VAR
+/Options.
+A=Etape=A
+B=Etape=B
+C=Etape=C
+D=Etape=D
+E=Etape=E
+> Choisisez une Unité ?
+[A) Chef, B) Guerrier, C) Archer, D) Black Mage, E) Guerrisser. ]
+/A
+Vrai=A=Chef Attaque:HP-?:HP-?;B=Chef Defance:EP+?:EP+?:EP+?;C=Chef Jet:HP-5;D=Chef Sort:HP-?;E=Chef Soin:EP-5;> Choisissez une Action.;[A) Attaque, B) Defance, C) Jet, D) Sort, E) Soin. ];Etape-A; 
+element=A
+Liste=Etape
+SI=COND
+/B
+Vrai=A=Guerrier Attaque:HP-?:HP-?:HP-?;B=Guerrier Defance:EP+?:EP+?;C=Guerrier Jet:HP-?;D=Guerrier Sort:HP-1;E=Guerrier Soin:EP+5;> Choisissez une Action.;[A) Attaque, B) Defance, C) Jet, D) Sort, E) Soin. ];Etape-B; 
+element=B
+Liste=Etape
+SI=COND
+/C
+Vrai=A=Archer Attaque:HP-5;B=Archer Defance:HP-1;C=Archer Jet:HP-?:HP-?:HP-?;D=Archer Sort:HP-?;E=Archer soin:HP-?:HP-?;> Choisissez une Action.;[A) Attaque, B) Defance, C) Jet, D) Sort, E) Soin. ];Etape-C; 
+element=C
+Liste=Etape
+SI=COND
+/D
+Vrai=A=Black Mage Attaque:Hp-?;B=Black Mage Defance:EP+5;C=Black Mage Jet:HP-?:HP-?;D=Black Mage Sort:HP-?:HP-?:HP-?;E=Black Mage Soin:EP+1;> Choisissez une Action.;[A) Attaque, B) Defance, C) Jet, D) Sort, E) Soin. ];Etape-D; 
+element=D
+Liste=Etape
+SI=COND
+/E
+Vrai=A=Guerrisser Attaque:HP-1;B=Guerrisser Defance:HP+?;C=Guerrisser Jet:HP-5;D=Guerrisser Sort:HP-?:HP-?;E=Guerrisser Soin:EP+?:EP+?:EP+?;> Choisissez une Action.;[A) Attaque, B) Defance, C) Jet, D) Sort, E) Soin. ];Etape-E; 
+element=E
+Liste=Etape
+SI=COND
+/Le Choix de la cible est purement factultative elle n'influence en rien le Jeux.
+/Les points sont comptés pour le groupe en entier Ami ou ennemi.
+A=Etape=A
+B=Etape=B
+> Group Ciblé ? (Amis ou Ennemis)
+[A) Amis, B) Ennemis. ]
+/Amis
+Vrai=A=Dirigé sur le Chef.;B=Dirigé sur le Guerrier.;C=Dirigé sur l'Arché.;D=Dirigé sur le Black Mage.;E=Dirigé sur le Guerriseur.;> Unité Ciblé.;[A) Chef, B) Guerrier, C) Archer, D) Black Mage, E) Guerrisser. ];Etape-A; 
+element=A
+Liste=Etape
+SI=COND
+/Ennemis
+Vrai=A=Dirigé sur le Chef Ennemi.;B=Dirigé sur le Guerrier Ennemi.;C=Dirigé sur l'Arché Ennemi.;D=Dirigé sur le Black Mage Ennemi.;E=Dirigé sur le Guerriseur Ennemi.;> Unité Ciblé.;[A) Chef, B) Guerrier, C) Archer, D) Black Mage, E) Guerrisser. ];Etape-B; 
+element=B
+Liste=Etape
+SI=COND
+action+1
+vrai=Critique Guerrison!;HP=500; 
+element=500
+Liste=HP
+SI>VAR
+vrai=Critique Guerrison!;HP=500; 
+element=500
+Liste=EP
+SI>VAR
+vrai=Vous avez gagnez!;(action);GP+?; 
+element=0
+Liste=HP
+SI<VAR
+vrai=Vous avez perdus!;(action);XP+?; 
+element=0
+Liste=EP
+SI<VAR
+(EP)
+Team Point Vie:
+(HP)
+Advr Point Vie:
+(pause)
+Tour de l'Ennemi:
+Score=?
+faux=
+(Score)
+vrai=Equimose;EP-1; 
+element=1
+Liste=Score
+SI=VAR
+vrai=Éraflure;EP-5; 
+element=2
+Liste=Score
+SI=VAR
+vrai=Dégat Mineur;EP-?; 
+element=3
+Liste=Score
+SI=VAR
+vrai=Dégas Moyen;EP-?;EP-?; 
+element=4
+Liste=Score
+SI=VAR
+vrai=Dégas Majeur;EP-?;EP-?;EP-?; 
+element=5
+Liste=Score
+SI=VAR
+vrai=Stabiliser;HP+1; 
+element=6
+Liste=Score
+SI=VAR
+vrai=Premier Soin;HP+5; 
+element=7
+Liste=Score
+SI=VAR
+vrai=Guerrison Mineur;HP+?; 
+element=8
+Liste=Score
+SI=VAR
+vrai=Guerrison Moyen;HP+?;HP+?; 
+element=9
+Liste=Score
+SI=VAR
+vrai=Guerrison Majeur;HP+?;HP+?;HP+?; 
+element=10
+Liste=Score
+SI=VAR
+/Comtabiliser les points d'Equipe.
+(EP)
+Team Point Vie:
+(HP)
+Advr Point Vie:
+(pause)
+Tour Ami:

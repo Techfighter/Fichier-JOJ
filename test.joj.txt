@@ -1,0 +1,9 @@
+/Point intéressent, il est permis de concatené une a la suite de l'autre plus de structure complex si elles reste séquenciel et peut-être même y metre tout le programme au final...
+A=Etape=A
+> Choisisez une Unité ?
+[A) Chef. ]
+/A
+Vrai=A=Chef Attaque:HP-?:HP-?;B=Chef Defance:EP+?:EP+?:EP+?;C=Chef Jet:HP-5;D=Chef Sort:HP-?;E=Chef Soin:EP-5;> Choisissez une Action.;[A) Attaque, B) Defance, C) Jet, D) Sort, E) Soin. ];A=Dirigé sur le Chef.;B=Dirigé sur le Guerrier.;C=Dirigé sur l'Archer.;D=Dirigé sur le Black Mage.;E=Dirigé sur le Guerriseur.;> Unité Ciblé ? (Amis ou Ennemi);[A) Chef, B) Guerrier, C) Archer, D) Black Mage, E) Guerrisser. ];Etape-A; 
+element=A
+Liste=Etape
+SI=COND

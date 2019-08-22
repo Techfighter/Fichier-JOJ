@@ -1,0 +1,128 @@
+L'OISEAU D'OR 
+Il était une fois, il y a bien longtemps, un roi, qui avait derrière son château un parc magnifique, doté d'un merveilleux verger. Et dans ce verger se trouvait un arbre qui ne portait que des pommes d'or. Quand les pommes furent mûres, on les compta, mais le lendemain matin, on s'aperçut qu'il en manquait une. Le roi, qui en avait été informé, ordonna qu'un garde veillât chaque nuit au pied de l'arbre magique. Comme il avait trois fils, il envoya son aîné dès que le jour commença à diminuer. Mais, alors que le carillon annonçait minuit, le fils s'était endormi, terrassé par le sommeil. Et le lendemain matin, il manquait une nouvelle pomme d'or. La nuit suivante, le deuxième fils fut envoyé pour monter la garde au pied de l'arbre, mais, comme son frère, il s'endormit au milieu de la nuit. Le lendemain matin, il manquait une pomme d'or. Ce fut alors au tour du troisième fils de monter la garde. Et bien que, son père n'eut pas une très grande confiance en lui, il le laissa néanmoins prendre son tour. Le jeune homme s'étendit sous l'arbre, veilla et prit garde à ne pas se laisser prendre par le sommeil. Lorsque minuit sonna, il y eut un bruissement dans l'air et le jeune homme aperçut, au clair de lune, un oiseau dont le plumage était entièrement fait d'or pur. L'oiseau, qui s'était posé sur l'arbre, entreprit de becqueter une pomme. 
+A=Comme ses frères, il s'endormit au milieu de la nuit. Le lendemain matin, il manquait une pomme d'or, mais une plume d'or était tombée au pied du guetteur. Il la ramassa et la montra le lendemain au roi.
+B=Le jeune homme lui décocha une flèche qui le mit en fuite. Or, la flèche l'avait frôlé et l'une de ses plumes d'or était tombée au pied du guetteur. Le jeune homme la ramassa et la montra le lendemain au roi, en lui décrivant ce qu'il avait vu. :score+1
+C=Le jeune homme lui décocha une flèche. Celle-ci l'avait frappé de plein fouet qui la tua. S'en n'était fini de la quête. :(quit)
+> Que fera-t-il ?
+[A) S'endormir, B) Effraie l'oiseau, C) Décoché une flèche]
+Le roi réunit tous ses fidèles conseillers, et tous furent d'accord pour dire qu'une seule, de ces plumes avait plus de valeur que le royaume tout entier. Si cette plume est si précieuse, dit le roi, je veux posséder l'oiseau tout entier. Que l'on se mette à sa recherche! Le fils aîné se mit en route, confiant dans son habileté, assurant qu'il ne tarderait pas à rapporter l'oiseau d'or. Lorsqu'il eut fait un bon bout de chemin, il arriva en lisière d'une forêt, et, avisant un renard, il le visa avec son arc. Ne me tue pas, lui cria le renard.
+A=Pour te remercier, je vais te donner un bon conseil puisque tu es à la recherche de l'oiseau d'or. Ce soir, quand tu arriveras au village, tu verras deux auberges qui se font face. L'une sera pleine de lumières et de rires. N'y entre pas. Choisis plutôt l'autre qui te paraîtra froide et sinistre. :score+1
+B=Le fils du roi se demanda: Qu'est-ce qu'une bête peut savoir de ces choses-là ? Et pourquoi devrais-je suivre ses conseils?
+C=Il décocha mais manqua le renard qui détala ventre à terre.
+D=Il décocha et tua le renard qui s'écroula par terre.:(quit)
+>Que devra-t-il faire ?
+[A) Épargné ca vie, B) Ne pas l'écouté, C) Effraie le renard, D) Le tué ]
+Le jeune homme continua sa route et arriva au soir dans le village où se trouvaient les deux auberges.
+L'une retentissait de rires et de musique; l'autre était froide et triste.
+A=Il entra dans celle pleine de vie, et y mena une vie de plaisirs, oubliant tout à fait son père et l'oiseau d'or. :score+1
+B=Il se dit qu'il serait bien bête de préférer une auberge aussi triste. Il entra dans celle pleine de vie, et y mena une vie de plaisirs, oubliant tout à fait son père et l'oiseau d'or.
+>Que choisira t'il ?
+[A) Choisir l'auberge animée, B) Faire un choix éclairé ]
+Comme le temps passait et que l'aîné ne revenait pas au château, le deuxième fils se mit en route à son tour, toujours à la recherche de l'oiseau d'or. Comme son frère aîné, il rencontra le renard et le visa de son arc. Ne me tue pas ! Un renard qui parle! S'exclama-t-il, mais il hésita moins longtemps que son frère.
+A=Pour te remercier, je vais te donner un bon conseil puisque tu es à la recherche de l'oiseau d'or. Ce soir, quand tu arriveras au village, tu verras deux auberges qui se font face. L'une sera pleine de lumières et de rires. N'y entre pas. Choisis plutôt l'autre qui te paraîtra froide et sinistre.>
+B=Le renard lui donna le même conseil, et tout comme son frère, il n'en tint pas compte. Il décocha une fléche mais le manqua car il détala vite.
+> Que fera-t-il ?
+[A) L'écouté, B) Le tué ]
+Arrivé dans le village aux deux auberges, il aperçut, derrière la fenêtre de celle qui était fort animée, son frère, qui lui faisait signe de le rejoindre. Il ne se fit pas prier et commença alors à vivre une vie de plaisirs et de légèreté. Comme le temps s'écoulait, le fils cadet se mit en tête de partir lui aussi à la recherche de l'oiseau d'or. Mais son père s'y opposa fermement:
+-Si ses frères n'ont pu trouver l'oiseau d'or, celui-ci n'a aucune chance de le trouver! Et si jamais, il se met dans quelque fâcheuse situation, il ne saura jamais s'en tirer! Mais le fils insista tant que le père finit par céder pour avoir la paix et le laissa filer. Le cadet aperçut lui aussi le renard à la lisière de la forêt, qui le supplia de lui laisser la vie sauve.
+A=Ne t'en fais pas, petit renard, dit le fils qui avait bon cœur, je ne te ferai aucun mal. Pour te remercier, monte sur mon dos et accroche toi à ma queue. Et il y était à peine que le renard détala, franchissant les obstacles à la vitesse du vent. Ils arrivèrent bientôt au village et le jeune homme quitta son extraordinaire monture et suivit le conseil du renard.>
+B=Il manqua expert le renard qui détala comme le vent. Le cadet voulut se débrouillé seul cette fois.
+C=Il décocha une flèche droit au cœur et le renard tomba mort. Son corps se transformât en jeune garçon richement vêtu. Il ne retrouva jamais l'oiseau!:(quit)
+> Que devra-t-il faire ?
+[A) Épargné ca vie, B) Effraie le renard, C) Le tué ]
+Arrivé dans le village aux deux auberges, il aperçut une fête, derrière la fenêtre de celle qui était fort animée, ses frères, qui lui faisait signe de le rejoindre.
+A=Il choisit l'auberge festive et y retrouva ces frères ivres qui l'entraina dans une vie endiablé, mais aucun ne retrouva jamais l'oiseau d'or.}
+B=Il alla directement à la deuxième auberge, la plus triste, et passa une fort bonne nuit. Il rêva de sa quête de l'oiseau d'or, du renard magique et tout la gloire qu'il l'attendait. :score+1
+> Que décidera-t-il ?
+[A) Faire la fête, B) Aller se reposé ]
+Le lendemain, alors qu'il se trouvait en pleine campagne, le renard apparut à nouveau et lui dit: Écoute-moi bien. Tu vas continuer toujours tout droit et tu arriveras devant un château. Là, tu te trouveras face à des soldats, tous entrains de dormir. Tu passeras par-dessus et tu te dirigeras tout droit vers le château, dont tu traverseras les salles en enfilade jusqu'à ce que tu trouves une chambre dans laquelle est enfermé un oiseau d'or, dans un, cage de bois. À côté se trouve une cage d'or, vide. N'y touche pas, et prend bien soin de ne pas sortir l'oiseau de sa cage le bois. Sinon, tu le regretteras. Sur ces mots, le renard lui proposa de le conduire jusqu'au château. Le troisième fils s'accrocha à sa queue et ils filèrent à travers champs à la vitesse du vent. Quand il parvint au château, tout était comme, le renard l'avait décrit. Les soldats dormaient et personne ne se rendis compte de sa présence. Il arriva sans encombre à la chambre où se trouvait l'oiseau d'or, enfermé dans sa cage de bois, à côté d'une magnifique cage d'or. Les trois pommes d'or se trouvaient également dans la pièce, à trois endroits différents.
+A=Avisant ces magnifique pommes d'or volé a son père, le jeune homme se dit que c'était dommage de ne pas les récupérés. 
+B=Avisant la magnifique cage d'or, le jeune homme se dit que c'était bien dommage de ne pas s'en servir. Il ouvrit alors la cage en bois pour transférer l'oiseau.
+C=Il décida d'écouté les conseils du renard et ne toucha a rien d'autre. :score+1
+>Comment s'y prendra-t-il ?
+[A) Récupéré les pommes d'or, B) Mettre l'oiseau dans la Cage doré, C) En discrétion avec la Cage de bois ]
+Mais ce dernier poussa des cris stridents qui réveillèrent les soldats qui se précipitèrent à l'intérieur du château. Ils capturèrent le fils du roi et le lendemain il fut jugé par le tribunal.
+A=On le condamna à mort après avoir entendu ses aveux.
+B=On le condamna à mort après avoir entendu ses aveux. :(quit)
+>Que va-t-il plaidé?
+[A) Des aveux, B) D'odieux mensonge ]
+Le roi décida néanmoins de lui laisser la vie sauve à condition qu'il lui ramène le cheval d'or, celui qui galope plus vite que le vent. S'il y parvenait, il lui donnerait en récompense le bel oiseau d'or. Le voici contraint d'exercé le métier de voleur pour s'en sortir. Le jeune prince se mit donc en route, mais il ne savait où aller et où chercher le cheval d'or. Il aperçut alors son vieil ami le renard, assis au bord du chemin.
+-Tu vois, lui dit le renard, tu as eu des ennuis parce que tu ne m'as pas écouté. Mais reprends courage, je vais t'indiquer comment parvenir jusqu'au cheval d'or.
+- Écoute-moi bien et souviens-toi bien de ce que je vais te dire:
+Tu vas avancer toujours tout droit, et tu parviendras jusqu'à un château où le cheval est à l'écurie. Devant l'écurie se trouvent des valets et des palefreniers, mais ils ronfleront si fort qu'ils ne te tracasseront pas. Tu pourras alors pénétrer dans l'écurie et sortir le cheval d'or. Mais attention: prends bien soin de lui laisser sa vieille selle de cuir et de bois, et laisse de côté la selle d'or que tu trouveras aussi. Sinon, tu auras de gros ennuis! Puis le renard le transporta à la vitesse du vent et le jeune prince arriva devant le château. Tout était bien là comme le renard l'avait dit, et il pénétra dans l'écurie du cheval d'or.
+A=Mais comme il s'apprêtait à sangler le cheval, il dus se résoudre à lui mettre la vieille selle de bois, mais elle n'eut pas plutôt touché le dos du cheval que...:score+1
+B=Il prit alors la magnifique selle d'or mais elle n'eut pas plutôt touché le dos du cheval que...
+>Il va sangler le beau cheval d'or avec quoi?
+[A) Avec la vieille selle, B) Avec la belle selle d'or ]
+Celui-ci se mit à hennir bruyamment! Les gardes et les palefreniers, alertés, accoururent aussitôt, s'emparèrent du jeune homme et le mirent en prison. Il fut jugé dès le lendemain. Que va-t-il plaidé aujourd'hui ?
+A=On le condamna à mort après avoir entendu ses aveux.
+B=On le condamna à mort après avoir entendu ses aveux. :(quit)
+> Que va-t-il plaidé?
+[A) Des aveux, B) D'odieux mensonge]
+Mais le roi du royaume des chevaux décida de lui laisser la vie sauve, en plus du cheval d'or, s'il parvenait à lui ramener la belle princesse du château d'or. Dépité, le jeune homme se remit en route et fort heureusement croisa le renard qui l'attendait sur le bord du chemin.
+-Je devrais t'abandonner à ton triste sort! lui dit le renard, mais tu t'es montré généreux et je veux t'aider une nouvelle fois.
+-Ton chemin te conduira tout droit au château d'or, tu t'y rendras la nuit, quand tout est silencieux, car la princesse a pour habitude de se rendre au pavillon de bain pour s'y baigner à ce moment-là. Dès qu'elle entrera, bondis vers elle et donne lui un baiser. Elle te suivra et tu n'auras plus qu'à l'emmener avec toi. Mais surtout empêche la d'aller dire adieu à ses parents avant de partir, car sinon les choses tourneraient très mal pour toi!
+Et le jeune prince chevaucha â nouveau sors étrange monture plus vite que le vent. Au château d'or, tout était comme le renard l'avait prédit encore une fois. Le jeune prince attendit jusqu'à minuit et il vit la princesse se rendre au pavillon de bain. Il bondit hors de sa cachette et lui prit un baiser. Elle lui dit qu'elle le suivrait avec joie, mais qu'elle devait absolument dire adieu à ses parents.
+A=Comme il refusait, elle versa tant de larmes que son cœur se brisa. Elle mourut et s'en était fini de sa quête. :(quit)
+B=Malgré tous les judicieux conseils du renard, le jeune homme se laissa attendrir et céda. :score+1
+> Que lui répondra-t-il ?
+[A) Refusé, B) Accepté ]
+À peine la jeune princesse était-elle arrivée devant le lit de son père que celui ci se réveilla. À ses cris, ses gardes s'emparèrent du jeune homme et le mirent en prison. Le lendemain matin, le roi du château d'or le convoqua sans procès et lui dit:
+-Tu mériterais de mourir, mais je peux t'accorder ma grâce, en plus de ma fille, si tu arrives à exposé mon souhait.
+-Parviens en huit jours à m'ôter la montagne qui est devant ma fenêtre et qui me bouche la vue; tu partiras avec elle.
+A=Il est fou! Aucun homme n’à se pouvoir. Puis on le conduit à la potence. S'en est fini ! :(quit)
+B=J'accepte. Elle a des yeux à vous faire déplacer des montagnes. :score+1
+> Que lui répondra t'il ?
+[A) Refusé, B) Accepté ]
+Ainsi le prince commença aussitôt à piocher et à pelleter la terre et les rochers, sans discontinuer, mais au bout de sept jours, constatant que tout son travail était à peine visible, il se découragea et perdit tout espoir. Le soir du septième jour, le renard apparut et dit
+-Je devrais te laisser ainsi et ne plus me soucier de toi, mais va te coucher à présent, et je m'occuperai de ton travail.
+Quand il se réveilla le jour suivant, la montagne avait totalement disparu. Tout heureux, le jeune homme s'en alla d'un bon pas voir le roi et il exigea qu'il tint sa promesse. Le roi fut bien obligé de respecter sa parole et de lui donner sa fille. Alors, ils s'éloignèrent tous deux du château et le renard ne tarda pas à les rejoindre.
+-Tu as maintenant ce que tu pouvais espérer de mieux, dit le renard au jeune prince.
+-Mais si tu veux posséder le cheval d'or, il te faudra te séparer de la princesse du château d'or.
+-Quel cruel dilemme!
+A=Il la pris par la main, partirent pour vivre heureux et eurent beaucoup d'enfants, mais le prince ne compléta jamais sa quête.:(quit)
+B=Il amena la belle princesse du château d'or au roi des chevaux, comme il l'avait demandée.
+C=Je vais t'y aider, dit le renard. Tu vas amener la belle princesse du château d'or au roi qui te l'avait demandée. :score+1
+> Quelle solution priorisé au problème.
+[A) S'enfuir avec la princesse, B) Échangé la princesse pour le Cheval, C) Comment puis-je obtenir l'un sans perdre l'autre?]
+-Pour te prouver sa gratitude, a l'heure dite tout le château sera en joie. Il te fera cadeau du cheval d'or.
+Tu le monteras et leur tendras à tous la main pour leur faire tes adieux, et tu te présenteras devant la princesse en dernier. Quand tu lui serreras la main, agrippe la bien et fais la monter avec toi sur le cheval, puis pars au triple galop. Personne ne pourra jamais te rattraper, puisque ton cheval galope plus vite que le vent. Tout se passa selon les dires du renard et le prince emporta la belle princesse sur son cheval d'or. Le fidèle renard ne tarda pas à se montrer. Maintenant si tu veux posséder l'oiseau d'or, il te faudra te séparer du cheval d'or.
+-Quel cruel dilemme!
+A=Ils montèrent le cheval et partirent fondé leur royaume, mais le prince ne compléta jamais sa quête.:(quit)
+B=Il amena le beau cheval au Roi de l'oiseau d'or, comme il l'avait demandée. Le renard lui proposa:
+C=Je vais t'aider à obtenir le bel oiseau d'or sans perdre le cheval. Dit le renard. :score+1
+> Quelle solution priorisé au problème.
+[A) S'enfuir avec le cheval, B) Échangé le cheval pour l'oiseau, C) Obtenir l'un sans perdre l'autre ? ]
+-Tu feras descendre la princesse lorsque tu arriveras en vue du château, et elle restera avec moi.
+Tu entreras dans le château sur ta monture, et sera acclamé par tous. Le roi, en récompense, t'apporteras l'oiseau d'or dans sa cage. Dès que tu l'auras en main, pars au triple galop, et personne ne pourra te rattraper et viens ensuite nous rejoindre. Tout se déroula comme prévu et le jeune prince se mit en tête de retourner chez son père avec ses trois trésors. Mais le renard l'arrêta.
+-J'attends maintenant que tu me donnes la récompense que je mérite pour tout ce que j'ai fait pour toi, dit l'animal.
+-D'accord, mon bon renard, que souhaites tu ?
+-Que tu me tues et que tu me coupes la tête et les pattes quand nous serons dans la forêt.
+A=Quelle récompense ce serait là! rétorqua le prince. Je ne pourrai jamais faire cela. :score+1
+B=Le prince s'exécuta: il tua le renard et lui trancha la tête et les pattes.
+>Que répondra-t-il au renard?
+[A) Refusé, B) Accepté]
+Aussitôt, le renard se métamorphosa en un jeune homme, qui avait été victime pendant de longues années d'un enchantement le tenant prisonnier de cette forme. Puisque tu ne veux pas le faire, je vais te laisser filer avec ta belle. Mais avant, écoute-moi bien une dernière fois. N'achète jamais de gibier de potence, et prends bien garde de ne pas t'asseoir sur la margelle d'un puits. Et il disparut dans la forêt, laissant le jeune prince bien perplexe «Pourquoi irais-je payer pour du gibier de potence? Quelle idée bien étrange. Et pourquoi diable irais-je m'asseoir sur la margelle d'un puits? Ce sont là de drôles d'idées! » Emmenant avec lui la belle princesse, il galopa sur la route qui les menait au royaume de son père. Ils arrivèrent bientôt au village où se trouvaient toujours ses deux frères aînés. Sur la place régnait une grande agitation, et lorsqu'il demanda quelle était la cause de ce tumulte, on lui répondit que deux hommes allaient être pendus. Il s'agissait de ses frères, qui après avoir mené grande vie s'étaient ruinés et avaient commis de nombreux délits. Ses frères lui demandèrent s'il était possible de les sauver? Qu'en payant leur cotions, c'était chose aisée.
+A=Sans réfléchir un instant, le jeune homme paya pour libérer ses frères et ils continuèrent le chemin tous ensemble. :score+1
+B=N'achète jamais de gibier de potence le renard avait dit. Le prince passa cruellement son chemin. Mais ses frères réussirent à s'échapper.
+>Que devrait-il faire?
+[A) Acheté leurs vie, B) Ne peux rien pour eux. ]
+Ils arrivèrent dans la forêt où le renard leur était apparu la première fois et comme ils avaient chaud, il s'arrêtèrent près d'un puits pour se désaltérer. Tandis qu'il parlait, le troisième fils s'assit négligemment sur la margelle du puits. Aussitôt, les deux frères le poussèrent au fond du puits, s'emparèrent de la princesse, du cheval d'or et de l'oiseau d'or et se dirigèrent à grand hâte vers le château de leur père. Voilà, père, nous te ramenons non seulement l'oiseau d'or, mais le cheval d'or et la princesse du château d'or. Tout le château était en grande joie, mais le cheval ne mangeait plus, l'oiseau ne chantait plus, et la princesse ne cessait de pleurer. Dans sa chute, le prince cadet n'était pas mort car le puits était à sec et tapissé de mousse. Mais il lui était néanmoins impossible de ressortir. Le renard, une fois de plus, lui porta secours. Il sauta dans le puits et lui reprocha vivement de ne l'avoir pas écouté. Puis il lui dit de s'accrocher à sa queue, et ainsi, ils parvinrent à se hisser jusqu'à la lumière du jour. Mais le danger est encore grand, l'avertit le renard. Tes frères, incertains de ta mort, ont disposé des gardes tout autour de la forêt et ils ont l'ordre de t'abattre. Il faut donc que tu leur échappes et que tu passes inaperçu.
+A=Le jeune homme chercha.:score+1
+B=Le jeune homme chercha.:score+1
+C=Le jeune homme chercha.:score+1
+>Comment s'y prendra t-il?
+[A) Chercher une occasion, B) Trouvé de l'aide, C) Ce déguiser ]
+Apercevant un pauvre homme sur son chemin, le prince échangea ses habits contre des vieilles hardes, et ainsi vêtu, parvint jusqu'au château et pénétra dans la cour. Nul ne pouvait le reconnaître, mais aussitôt l'oiseau se mit à chanter, le cheval se remit à manger et la princesse cessa de pleurer d'un seul coup. Et comme le roi s'en étonnait, elle lui dit: Je ne puis l'expliquer, répondit elle, mais ma tristesse s'est tout à coup envolée, et mon coeur est plein de joie. Comme si mon vrai fiancé s'en était revenu. Et malgré les menaces de mort des deux frères si elle disait la vérité au roi, elle se mit à conter toute l'histoire. Le roi ne dit rien mais ordonna que toutes les personnes présentes dans le château se présentera devant lui. Et bien sûr le jeune prince, caché sous ses haillons se présenta également au roi. Le coeur de la belle princesse ne pouvait se tromper et reconnaissant son fiancé, elle bondit le serrer dans ses bras. Les deux frères furent arrêtés sur le champ et furent exécutés. Le jeune prince, quant à lui, épousa la belle princesse et devint seul l'héritier du trône.
+A=Vous y êtes presque.
+B=Et bien...:score+1
+>C'est donc la fin?
+[A) Tout est bien qui fini bien? B) Et le pauvre renard, qu'est il devenu? ] 
+Plus tard, alors que le prince se promenait dans la forêt. Il rencontra de nouveau son vieil ami qui lui dit: Tu es heureux maintenant, tu possèdes tout ce que l'on peut espérer. Mais pour moi, le malheur n'a pas de fin et tu as le pouvoir d'y mettre un terme. Et de nouveau il le supplia de bien vouloir le tuer et de lui couper la tête et les pattes. Cette fois, le prince s'exécuta: il tua le renard et lui trancha la tête et les pattes. Aussitôt, il se métamorphosa en un jeune homme qui n'était autre que le frère de la belle princesse, qui avait été victime pendant de longues années d'un enchantement le tenant prisonnier. Alors, le bonheur de chacun fut complet, et ils vécurent très heureux pendant très longtemps.
+FIN
+(%)
+A=Il avait une fois.
+B=sourcefile=Menu
+> Options:
+[A) Nouvelle Partie, B) Quitter ]
+(Raz)

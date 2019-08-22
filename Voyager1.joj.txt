@@ -1,0 +1,261 @@
+L'Affaire Christina McAuliffe.
+L'air de lancement est désert, lorsqu'un parachutiste vous vêtu de noir pose le pied tout en douceur sur le sol bétonné. Un petit coup sur le deuxième cordon déclenche un mécanisme de rembobinage qui fait disparaitre le parachute à l'intérieur du sac. L'homme se libère de son harnais et allume la balise sur le côté. Après quelque instant le matériel a disparu comme par magie. Il alla se caché près d'un pilier de la structure et lança un drone miniature qu'il gardait rangé a sa ceinture. Le robot s'envola dans les airs mut par ça seul volonté et disparait à son tour. Il allait être ses yeux et ses oreilles durant toute la mission. Les images de l'air de lancement lui reviennent ligne par ligne sous forme d'un plan technique à l'intérieur de son casque a vision amplifier. La vois était libre, il était seul aux pieds de la navette Challenger.
+"Agent numéro 20 au Rapport. Mon point de saut a bien été atteint, Kennedy SC Floride. Je confirme 26 Janvier 1986 et il est 5h30 du matin. Début de l'opération."
+A=Vous explorez l'air de lancement spatial en prenant garde de ne pas attirer l'attention et passé hors du champ des caméras. C'est très différent de ce que vous imaginiez.
+B=Le robot passe et repasse tout autour de la grande tour de lancement et en dessine les détails. Ils vous seront utiles pour vous retrouver dans ce grand chantier. Vous obtenez le trajet optimal à faire à pied, pour reconnaitre les quatre objectifs: "Visiter la plate-forme, puis le sas, le bras rétractable et les fusées latéral. Sinon vous manquerez de temps."
+> Commencé par vous familiarisez avec la zone.
+[A) Explorer, B) Consulté le drone]
+Il y a dans un rayon d'un kilomètre de diamètre autour d'ici une route circulaire coupé par 4 quatre routes qui se rejoigne au milieu, là où la plateforme de lancement mobile est stationner avec le véhicule spatial. Environ tous les deux kilomètre du nord au sud, le même type d'installation se répète pour des missions avenir, relié par deux larges autoroutes parallèles. Adossé à la plateforme la grande tour de suspension tien la navette à l'aide de bras hydraulique très complexe, qui alimentent en électricité, en gaz, en eau et en hydrogène liquide les réservoirs de Challenger. Le site est très bien éclairé par des batteries de projecteur gigantesque, mais comme le terrain va subir un déluge de feux plus tard ce matin. L'air de mis à feu, a été évacué préventivement et gardé de loin à l'extérieur. Il n'y a pas âme qui vive vous avez donc le loisir d'aller et venir a vôtre loisir avant l'arrivée des première équipe vers 6:00.
+Score=0
+A=Etape=plateforme
+B=Vous montez les escaliers qui conduisent à « l'étoffe des héros. » Nom donné à la passerelle de l'ascenseur pour la télévision. Et appuyer sur le bouton du sommet, il y a treize étage de tuileaux et de câbles de toute sorte qui défile sous vos yeux. Une fois en haut, vous trouvé un vestibule encombré d'outil de pointe varier mais en petit nombre cependant. Il y a une perceuse électrique qui attire votre attention et une seconde batterie sur sa charge. Traversez la passerelle jusqu'à l'entrée du sas de la navette pour inspecter. Elle est solidement boulonné comme le suggéré les standards aérospatial de l'époque. Quelque chose ne va pas. Anachronisme détecté!
+C=Passant a travers la structure, suivant les plus haut conduit, vous trouvez un monte-charge conduisant tout en haut de la tour. C'est l'endroit où l'hydrogène liquide est pompé pour faire le remplissage du grand réservoir. Vous êtes toute en haut de la navette, une échelle étroite monte jusqu'au bras rétractable de remplissage. Vous inspectez le mécanisme de libération et trouvé une grave négligence, la boite d'hydraulique qui commande le repli du bras est partiellement démonté. (Quatre ressort manque) ici pour le frein sert l’arbre d'entrainement. Quelqu'un chez la NASA n'a pas terminé son travail à temps et c'est déjà le lancement dans moins d'une heure. C'est n'est pas dans vos archives. Anachronisme détecté!
+D=Il n'y a pas d'accès à ce niveau de la structure, pour que vous y grimpé, mais votre drone peux se rapprochés. Théoriquement c'est à une disfonctionnement du système d’encrage des fusées latérales gauche qu'on doit la cause de la future tragédie. Le problème est déjà bien connu par les ingénieurs de la NASA mais ce n'est pas alarmant pour la direction. Un scanne au courant de Foucaud, révèle qu'une série de joint étanche manque à l'intérieur de la paroi central en bas. Vous rapporté les images du robot, mais il n'y a rien que vous puissiez y faire aujourd'hui.
+> Par où voulez-vous commencé ?
+[A) Inspecté la plateforme, B) Inspecté le Sasse, C) Inspecté de réservoir, D) Inspecté les fusées latéral]
+vrai=Sur la base de la navette, les moteurs sont maintenu par une trappe coulissante qui lâche le véhicule au moment de son envole. La seul pression des moteurs en marche est suffisante pour faire retourner ce dispositif, mais des ressorts de sécurité sont installé aux cas où. Tout a l'aire en parfaite état de marche par ici contrairement à ce que vos archives vous présage en suite de l'enquête fédéral. Anachronisme Détecté!
+element=plateforme
+liste=Etape
+SI=COND
+vrai=Score+1
+element=plateforme
+liste=Etape
+SI=COND
+5h37
+A=Sur la base de la navette, les moteurs sont maintenu par une trappe coulissante qui lâche le véhicule au moment de son envole. La seul pression des moteurs en marche est suffisante pour faire retourner ce dispositif, mais des ressorts de sécurité sont installé aux cas où. Tout a l'aire en parfaite état de marche par ici contrairement à ce que vos archives vous présage en suite de l'enquête fédéral. Anachronisme Détecté!
+B=Etape=sas
+C=Passant a travers la structure, suivant les plus haut conduit, vous trouvez un monte-charge conduisant tout en haut de la tour. C'est l'endroit où l'hydrogène liquide est pompé pour faire le remplissage du grand réservoir. Vous êtes toute en haut de la navette, une échelle étroite monte jusqu'au bras rétractable de remplissage. Vous inspectez le mécanisme de libération et trouvé une grave négligence, la boite d'hydraulique qui commande le repli du bras est partiellement démonté. (Quatre ressort manque) ici pour le frein sert l’arbre d'entrainement. Quelqu'un chez la NASA n'a pas terminé son travail à temps et c'est déjà le lancement dans moins d'une heure. C'est n'est pas dans vos archives. Anachronisme détecté!
+D=Il n'y a pas d'accès à ce niveau de la structure, pour que vous y grimpé, mais votre drone peux se rapprochés. Théoriquement c'est à une disfonctionnement du système d’encrage des fusées latérales gauche qu'on doit la cause de la future tragédie. Le problème est déjà bien connu par les ingénieurs de la NASA mais ce n'est pas alarmant pour la direction. Un scanne au courant de Foucaud, révèle qu'une série de joint étanche manque à l'intérieur de la paroi central en bas. Vous rapporté les images du robot, mais il n'y a rien que vous puissiez y faire aujourd'hui.
+> Par où voulez-vous commencé ?
+[A) Inspecté la plateforme, B) Inspecté le Sasse, C) Inspecté de réservoir, D) Inspecté les fusées latéral]
+vrai=Vous montez les escaliers qui conduisent à 'l'étoffe des héros'. Nom donné à la passerelle de l'ascenseur pour la télévision. Et appuyer sur le bouton du sommet, il y a treize étage de tuileaux et de câbles de toute sorte qui défile sous vos yeux. Une fois en haut, vous trouvé un vestibule encombré d'outil de pointe varier mais en petit nombre cependant. Il y a une perceuse électrique qui attire votre attention et une seconde batterie sur sa charge. Traversez la passerelle jusqu'à l'entrée du sas de la navette pour inspecter. Elle est solidement boulonné comme le suggère les standards aérospatial de l'époque. Quelque chose ne va pas. Anachronisme détecté!
+element=sas
+liste=Etape
+SI=COND
+vrai=Score+1
+element=sas
+liste=Etape
+SI=COND
+5h45
+A=Sur la base de la navette, les moteurs sont maintenu par une trappe coulissante qui lâche le véhicule au moment de son envole. La seul pression des moteurs en marche est suffisante pour faire retourner ce dispositif, mais des ressorts de sécurité sont installé aux cas où. Tout a l'aire en parfaite état de marche par ici contrairement à ce que vos archives vous présage en suite de l'enquête fédéral. Anachronisme Détecté!
+B=Vous montez les escaliers qui conduisent à « l'étoffe des héros. » Nom donné à la passerelle de l'ascenseur pour la télévision. Et appuyer sur le bouton du sommet, il y a treize étage de tuileaux et de câbles de toute sorte qui défile sous vos yeux. Une fois en haut, vous trouvé un vestibule encombré d'outil de pointe varier mais en petit nombre cependant. Il y a une perceuse électrique qui attire votre attention et une seconde batterie sur sa charge. Traversez la passerelle jusqu'à l'entrée du sas de la navette pour inspecter. Elle est solidement boulonné comme le suggère les standards aérospatial de l'époque. Quelque chose ne va pas. Anachronisme détecté!
+C=Etape=Bras repliable
+D=Il n'y a pas d'accès à ce niveau de la structure, pour que vous y grimpé, mais votre drone peux se rapprochés. Théoriquement c'est à une disfonctionnement du système d’encrage des fusées latérales gauche qu'on doit la cause de la future tragédie. Le problème est déjà bien connu par les ingénieurs de la NASA mais ce n'est pas alarmant pour la direction. Un scanne au courant de Foucaud, révèle qu'une série de joint étanche manque à l'intérieur de la paroi central en bas. Vous rapporté les images du robot, mais il n'y a rien que vous puissiez y faire aujourd'hui.
+> Par où voulez-vous commencé ?
+[A) Inspecté la plateforme, B) Inspecté le Sasse, C) Inspecté de réservoir, D) Inspecté les fusées latéral]
+vrai=Passant a travers la structure, suivant les plus haut conduit, vous trouvez un monte-charge conduisant tout en haut de la tour. C'est l'endroit où l'hydrogène liquide est pompé pour faire le remplissage du grand réservoir. Vous êtes toute en haut de la navette, une échelle étroite monte jusqu'au bras rétractable de remplissage. Vous inspectez le mécanisme de libération et trouvé une grave négligence, la boite d'hydraulique qui commande le repli du bras est partiellement démonté. (Quatre ressort manque) ici pour le frein sert l’arbre d'entrainement. Quelqu'un chez la NASA n'a pas terminé son travail à temps et c'est déjà le lancement dans moins d'une heure. C'est n'est pas dans vos archives. Anachronisme détecté!
+element=Bras repliable
+liste=Etape
+SI=COND
+vrai=Score+1
+element=Bras repliable
+liste=Etape
+SI=COND
+5h52
+A=Sur la base de la navette, les moteurs sont maintenu par une trappe coulissante qui lâche le véhicule au moment de son envole. La seul pression des moteurs en marche est suffisante pour faire retourner ce dispositif, mais des ressorts de sécurité sont installé aux cas où. Tout a l'aire en parfaite état de marche par ici contrairement à ce que vos archives vous présage en suite de l'enquête fédéral. Anachronisme Détecté!
+B=Vous montez les escaliers qui conduisent à « l'étoffe des héros. » Nom donné à la passerelle de l'ascenseur pour la télévision. Et appuyer sur le bouton du sommet, il y a treize étage de tuileaux et de câbles de toute sorte qui défile sous vos yeux. Une fois en haut, vous trouvé un vestibule encombré d'outil de pointe varier mais en petit nombre cependant. Il y a une perceuse électrique qui attire votre attention et une seconde batterie sur sa charge. Traversez la passerelle jusqu'à l'entrée du sas de la navette pour inspecter. Elle est solidement boulonné comme le suggère les standards aérospatial de l'époque. Quelque chose ne va pas. Anachronisme détecté!
+C=Passant a travers la structure, suivant les plus haut conduit, vous trouvez un monte-charge conduisant tout en haut de la tour. C'est l'endroit où l'hydrogène liquide est pompé pour faire le remplissage du grand réservoir. Vous êtes toute en haut de la navette, une échelle étroite monte jusqu'au bras rétractable de remplissage. Vous inspectez le mécanisme de libération et trouvé une grave négligence, la boite d'hydraulique qui commande le repli du bras est partiellement démonté. (Quatre ressort manque) ici pour le frein sert l’arbre d'entrainement. Quelqu'un chez la NASA n'a pas terminé son travail à temps et c'est déjà le lancement dans moins d'une heure. C'est n'est pas dans vos archives. Anachronisme détecté!
+D=Etape=fusées latéral
+> Par où voulez-vous commencé ?
+[A) Inspecté la plateforme, B) Inspecté le Sasse, C) Inspecté de réservoir, D) Inspecté les fusées latéral]
+vrai=Il n'y a pas d'accès à ce niveau de la structure, pour que vous y grimpé, mais votre drone peux se rapprochés. Théoriquement c'est à une disfonctionnement du système d’encrage des fusées latérales gauche qu'on doit la cause de la future tragédie. Le problème est déjà bien connu par les ingénieurs de la NASA mais ce n'est pas alarmant pour la direction. Un scanne au courant de Foucaud, révèle qu'une série de joint étanche manque à l'intérieur de la paroi central en bas. Vous rapporté les images du robot, mais il n'y a rien que vous puissiez y faire aujourd'hui.
+element=fusées latéral
+liste=Etape
+SI=COND
+vrai=Score+1
+element=fusées latéral
+liste=Etape
+SI=COND
+5h59 Vous envoyez votre rapport sur le réseau Schrödinger. Liste des anachronismes découverts et votre témoignage sur le terrain:
+(Etape)
+Analyse en coure...
+vrai=Trois Anachronisme découvert sur un seul site aussi près du point charnière de l'histoire, ne manque pas d'attiré l'attention. Plus une confirmation de la défaillance de l'attache du moteur fusé gauche révélé. "Vous avez le feux vert Agent 20, Bonne chance."
+element=4
+liste=Score
+SI=VAR
+vrai=Trois Anachronisme découvert sur un seul site aussi près du point charnière de l'histoire, ne manque pas d'attiré l'attention. "Vous avez le feux vert Agent 20, Bonne chance."
+element=3
+liste=Score
+SI=VAR
+vrai=Deux Anachronisme découvert sur un seul site aussi près du point charnière de l'histoire, est une statistique aberrante. "Vous devriez continuer votre investigation plus loin une autre fois, Agent 20, Bonne chance."
+element=2
+liste=Score
+SI=VAR
+vrai=Un Anachronisme découvert sur le site aussi près du point charnière de l'histoire, est un danger pour l'équilibre temporelle. "Vous devriez continuer votre investigation une autre fois Agent 20, Bonne chance."
+element=1
+liste=Score
+SI=VAR
+vrai=Les Anachronisme découvert sur le site aussi près du point charnière de l'histoire, est un danger pour l'équilibre temporelle. "Vous devriez continuer votre investigation une autre fois Agent 20, Bonne chance.
+element=0
+liste=Score
+SI=VAR
+6h00 Les équipes de technicien arrive sur l'air de lancement pour leurs ultimes inspections avant la mise à feu. Vous rappelé votre drone et disparaissez avec votre commande de Stealt camouflage, avant de rejoindre la foule des curieux sur la tribune des médiats. Un évènement charnière de l'histoire de ce siècle, va se jouer aujourd'hui à 11:38 et vous devriez y assisté.
+En attendant vous avez une chance de faire disparaitre les anachronismes et peut-être attiré asse l'attention des technicien pour qu'il demande de retardé le lancement. Ainsi vous pourrez sauvé la vie aux sept astronaute si vous faite les choses dans le bonne ordre. Activé votre Stealt camouflage et prenez les actions qui s'impose durant que les équipes font leurs inspections.
+Score=0
+A=Quete=plateforme
+B=Vous montez dans l'ascenseur et appuyer sur le bouton du sommet. Une fois en haut, vous arrivé dans le vestibule avec tous les outils. Vous prenez la perceuse électrique et la batterie de recharge. Vous traversez la passerelle jusqu'à l'entrée du sasse. Vous commencez à déboulonné le cadre de manière a attiré l'attention des équipes. Quelque minute suffise à décharger complètement sa batterie et vous la remettez en place sur la table.
+C=Vous repassez a travers la structure, suivant les haut conduits et emprunté le monte-charge conduisant tout en haut de la tour. Là où l'hydrogène liquide fait le remplissage du réservoir principal. Vous êtes juste devant le bras rétractable où le mécanisme de relit est démonté. Il vous manque quatre gros ressorts ici pour faire marcher le frein d'entrainement hydraulique.
+D=Il n'y a pas d'accès à ce niveau de la structure, pour que vous y grimpé. Et les moyens technique vous manque dans ce site. La seule chance qu'il vous reste c'est de faire retarder le lancement.
+> Par où voulez-vous commencé ?
+[A) Inspecté la plateforme, B) Inspecté le Sasse, C) Inspecté de réservoir, D) Inspecté les fusées latéral]
+vrai=Sur la base ou repose Challenger, les moteurs sont maintenu par une trappe coulissante. La seule pression des moteurs en marche est suffisante pour les faire retourner. L'enquête fédéral a montré plus tard, que plusieurs ressort manquait sur l'ouverture de cette trappe mais que par miracle elle c'était ouvert quand même au bon moment, sous l'action des retours de flamme. Vous attrapez un ratchet et démonté les pièces inutile qui pourrons vous servir.
+element=plateforme
+liste=Quete
+SI=COND
+vrai=Score+1 
+element=plateforme
+liste=Quete
+SI=COND
+vrai=Objet=Rachet 11/20 
+element=plateforme
+liste=Quete
+SI=COND
+vrai=Objet=Ressort 
+element=plateforme
+liste=Quete
+SI=COND
+vrai=Objet=Ressort 
+element=plateforme
+liste=Quete
+SI=COND
+6h07 
+A=Sur la base ou repose Challenger, les moteurs sont maintenu par une trappe coulissante. La seule pression des moteurs en marche est suffisante pour les faire retourner. L'enquête fédéral a montré plus tard, que plusieurs ressort manquait sur l'ouverture de cette trappe mais que par miracle elle c'était ouvert quand même au bon moment, sous l'action des retours de flamme. Vous attrapez un ratchet et démonté les pièces inutiles qui pourrons vous servir.
+B=Quete=sas
+C=Vous repassez a travers la structure, suivant les haut conduits et emprunté le monte-charge conduisant tout en haut de la tour. Là où l'hydrogène liquide fait le remplissage du réservoir principal. Vous êtes juste devant le bras rétractable où le mécanisme de relit est démonté. Il vous manque quatre gros ressorts ici pour faire marcher le frein d'entrainement hydraulique.
+D=Il n'y a pas d'accès à ce niveau de la structure, pour que vous y grimpé. Et les moyens technique vous manque dans ce site. La seule chance qu'il vous reste c'est de faire retarder le lancement.
+> Par où voulez-vous commencé ?
+[A) Inspecté la plateforme, B) Inspecté le Sasse, C) Inspecté de réservoir, D) Inspecté les fusées latéral]
+vrai=Vous montez dans l'ascenseur et appuyer sur le bouton du sommet. Une fois en haut, vous arrivez dans vestibule avec tous les outils. Vous prenez la perceuse électrique et la batterie de recharge. Vous traversez la passerelle jusqu'à l'entrée du sasse. Vous commencez à déboulonné le cadre de manière a attiré l'attention des équipes. Quelque minute suffise à décharger complètement sa batterie et vous la remettez en place sur la table.
+element=sas
+liste=Quete
+SI=COND
+vrai=Score+1 
+element=sas
+liste=Quete
+SI=COND
+vrai=Objet=Batterie de recharge 
+element=sas
+liste=Quete
+SI=COND
+6h15
+A=Sur la base ou repose Challenger, les moteurs sont maintenu par une trappe coulissante. La seule pression des moteurs en marche est suffisante pour les faire retourner. L'enquête fédéral a montré plus tard, que plusieurs ressort manquait sur l'ouverture de cette trappe mais que par miracle elle c'était ouvert quand même au bon moment, sous l'action des retours de flamme. Vous attrapez un ratchet et démonté les pièces inutiles qui pourrons vous servir.
+B=Vous montez dans l'ascenseur et appuyer sur le bouton du sommet. Une fois en haut, vous arrivé dans le vestibule avec tous les outils. Vous prenez la perceuse électrique et la batterie de recharge. Vous traversez la passerelle jusqu'à l'entrée du sasse. Vous commencez à déboulonné le cadre de manière a attiré l'attention des équipes. Quelque minute suffise à décharger complètement sa batterie et vous la remettez en place sur la table.
+C=Quete=Bras repliable
+D=Il n'y a pas d'accès à ce niveau de la structure, pour que vous y grimpé. Et les moyens technique vous manque dans ce site. La seule chance qu'il vous reste c'est de faire retarder le lancement.
+> Par où voulez-vous commencé ?
+[A) Inspecté la plateforme, B) Inspecté le Sasse, C) Inspecté de réservoir, D) Inspecté les fusées latéral]
+vrai=Vous repassez a travers la structure, suivant les haut conduits et emprunté le monte-charge conduisant tout en haut de la tour. Là où l'hydrogène liquide fait le remplissage du réservoir principal. Vous êtes juste devant le bras rétractable où le mécanisme de relit est démonté. Vous remontez rapidement tout le système et ajoutant les ressorts de la plate-forme. Il vous manque encore deux pièce, mais vous arrivé tout de même à faire marcher mollement le frein d'entrainement hydraulique.
+element=Bras repliable
+liste=Quete
+SI=COND
+vrai=Score+1 
+element=Bras repliable
+liste=Quete
+SI=COND
+vrai=Objet-Ressort 
+element=Ressort
+liste=Objet
+SI=COND
+vrai=Objet-Ressort 
+element=Ressort
+liste=Objet
+SI=COND
+6h22
+A=Sur la base ou repose Challenger, les moteurs sont maintenu par une trappe coulissante. La seule pression des moteurs en marche est suffisante pour les faire retourner. L'enquête fédéral a montré plus tard, que plusieurs ressort manquait sur l'ouverture de cette trappe mais que par miracle elle c'était ouvert quand même au bon moment, sous l'action des retours de flamme. Vous attrapez un ratchet et démonté les pièces inutiles qui pourrons vous servir.
+B=Vous montez dans l'ascenseur et appuyer sur le bouton du sommet. Une fois en haut, vous arrivé dans le vestibule avec tous les outils. Vous prenez la perceuse électrique et la batterie de recharge. Vous traversez la passerelle jusqu'à l'entrée du sasse. Vous commencez à déboulonné le cadre de manière a attiré l'attention des équipes. Quelque minute suffise à décharger complètement sa batterie et vous la remettez en place sur la table.
+C=Vous repassez a travers la structure, suivant les haut conduits et emprunté le monte-charge conduisant tout en haut de la tour. Là où l'hydrogène liquide fait le remplissage du réservoir principal. Vous êtes juste devant le bras rétractable où le mécanisme de relit est démonté. Il vous manque quatre gros ressorts ici pour faire marcher le frein d'entrainement hydraulique.
+D=Quete=fusées latéral
+> Par où voulez-vous commencé ?
+[A) Inspecté la plateforme, B) Inspecté le Sasse, C) Inspecté de réservoir, D) Inspecté les fusées latéral]
+vrai=Il n'y a pas d'accès à ce niveau de la structure, pour que vous y grimpé. Et les moyens technique vous manque dans ce site. La seule chance qu'il vous reste c'est de faire retarder le lancement. Un faible espoir reste, quand il brûle le carburant d'hydroxyde-aluminium soude la paroi intérieure des booster. Plus il chauffe longtemps plus la coque de la fusée se répare tout seul si des fissures arrivaient a condition que la trajectoire reste bien droite.  
+element=fusées latéral
+liste=Quete
+SI=COND
+vrai=Score+1 
+element=fusées latéral
+liste=Quete
+SI=COND
+6h29 Vous envoyez votre rapport de mission sur Schrödinger. Liste des anachronismes en Calculassions:
+(Etape)
+Analyse en coure...
+vrai=Trois Anachronisme effacer de l'histoire. "Vous avez rétablie l'équilibre temporelle Agent 20, Bravo!" 
+element=4
+liste=Score
+SI=VAR
+vrai=Trophe=Effet Papillon 
+faux=Trophe=Loi de Causalité
+element=4
+liste=Score
+SI=VAR
+vrai=Trois Anachronisme effacer de l'histoire. "Vous avez rétablie l'équilibre temporelle Agent 20, Bravo!" 
+element=3
+liste=Score
+SI=VAR
+vrai=Deux Anachronisme effacer de l'histoire. "Vous auriez pu poursuivre plus loin votre intervention dans se site Agent 20, du Beau travail!" 
+element=2
+liste=Score
+SI=VAR
+vrai=Un Anachronisme effacer de l'histoire. "Vous auriez pu poursuivre beaucoup plus loin votre intervention dans ce site Agent 20, Bon travail!" 
+element=1
+liste=Score
+SI=VAR
+vrai=Aucun Anachronisme effacer de l'histoire. "Vous n'avez pas réussie à rétablir le coure de l'histoire Agent 20, mais personne n'aurais pu faire mieux." 
+element=0
+liste=Score
+SI=VAR
+Il reste en votre possession différant article de 1986:
+(Objet)
+vrai=Objet-Rachet 11/20 
+element=Rachet 11/20
+liste=Objet
+SI=COND
+vrai=Objet-Perceuse électrique 
+element=Perceuse électrique
+liste=Objet
+SI=COND
+vrai=Objet-Batterie de recharge 
+element=Batterie de recharge
+liste=Objet
+SI=COND
+vrai=Objet-Ressort 
+element=Ressort
+liste=Objet
+SI=COND
+vrai=Objet-Ressort 
+element=Ressort
+liste=Objet
+SI=COND
+(Objet)
+Des conséquences possible de l'histoire les évènements change parfois mais qu'advient-il de la mission Challenger?
+vrai=8h00 lancement (Mardi 28 Janvier). 
+faux=8h00 lancement (Dimanche 26 Janvier). 
+element=sas
+liste=Quete
+SI=COND
+Christina McAuliffe et six astronautes prennent place sur l'étoffe des héros pour un dernier salut à la nation. On les accompagne jusque dans le poste de pilotage et le 25e lancement à lieux a l'heure prévu. 
+vrai=Après le lancement retardé il y a deux jours, les techniciens de la NASA ont tout remis en ordre sur le site de Challenger. Une anomalie a heureusement pus être repéré a temps, quand ils ont voulus refermé la porte de la navette. Il semble qu'une pièce qui garantis l'étanchéité du sasse ait été mal installé durant sa fabrication. La réparation dura plus longtemps que prévu car un outil indispensable était déchargé et aucune batterie de recharge n'était disponible. 
+element=sas
+liste=Quete
+SI=COND
+vrai=Malheureusement, une minute et demi après son décollage un incident surviens. La tragédie de Challenger restant un des plus grands désastres aéronautiques modernes. Christina McAuliffe et six autres membres de l’équipe furent tués dus à une disfonctionnement du système d’encrage des fusées latérales. Le problème avait été observé en 1977 par un spécialiste qui fit rapport à la haute direction de la Nasa. De plus, il semble qu'un retour de flamme sur la base du booster droit, aurait perforé et enflammé le réservoir principal. 
+faux=La mise à feu tourne mal, le bras d'alimentation en carburant ne s'est pas replié comme il l'aurait dus. Causant des dommages au sommet du réservoir principal et une fuite importante de l'hydrogène liquide. Congelant la navette et ces sept occupants avant d’exploser sur la plate-forme de lancement. Une tragédie qui aurait pu être évité c'est ce qu’ont révélé les conclusions de l'enquête fédéral. Un boitier d'hydraulique assurant le freinage du bras aurait mal fonctionné. L'erreur de votre carrière est que toutes les preuves brûlèrent avec elle dans l'incendie au sol, ce qui compliqua beaucoup le travail des ingénieurs. Les vols spéciaux ne reprirent que 42 mois plus tard et l'intérêt de la nation pour investir dans ses projets diminua.
+element=Bras repliable
+liste=Quete
+SI=COND
+La plate-forme marcha comme on s'y attendait et des experts charger d'amélioré les techniques de travail chez la NASA, ont relevé plusieurs points a amélioré. Tous les vols spatiaux furent suspendus durant 23 mois, temps que pris l'enquête a donné ses conclusions.
+vrai=Au moins Christina McAuliffe eu la chance de vivre deux jours de plus et passa du temps avec ça famille la veille du lancement. 
+element=sas
+liste=Quete
+SI=COND
+vrai=Trophe=Espoir. 
+element=sas
+liste=Quete
+SI=COND
+(Trophe)
+FIN
+(%)
+A=Il avait une fois.
+B=sourcefile=Menu
+> Options:
+[A) Nouvelle Partie, B) Quitter]
+(Raz)

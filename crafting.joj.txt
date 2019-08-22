@@ -1,0 +1,72 @@
+metier=Ingenier
+Objet=Reveil matin
+vrai=A=Objet-Reveil matin:Vous démonté le Reveille matin est récupéré:Objet=3 Eguille:Objet=1 Ressort:Objet=3 Rouage:Objet=1 Cadran:Objet=1 Loupe:Objet=2 cloche:Objet=1 marteau:Objet=6 Vis:Objet=1 Cle:Objet=Plan du Reveil matin;B=Vous conservez l'objet intacte;(Objet);> Voulez-vous le démonté ?;[A) OUI, B) NON ];element=Reveil matin;Liste=Objet;SI=COND; 
+faux=Vous n'avez pas le talent qu'il faut; 
+element=Ingenier
+Liste=metier
+SI=COND
+(Objet)
+vrai=A=Vous remontez le:objet(0:avec les pièces récupéré.;B=Vous conservez tout les pièces démonté.;> Voulez-vous le remonté ?;[A) OUI, B) NON ];element=Plan du Reveil matin;Liste=Objet;SI=COND; 
+faux=Vous n'avez pas le talent qu'il faut; 
+element=Ingenier
+Liste=metier
+SI=COND
+score=0
+vrai=Etape=1
+faux=Vous n'avez pas le plan pour le reconstruir
+element=Plan du Reveil matin
+Liste=Objet
+SI=COND
+vrai=Etape=1
+faux=Il vous manque une ou des Eguille!
+element=3 Eguille
+Liste=Objet
+SI=COND
+vrai=Etape=1
+faux=Il vous manque un Ressort!
+element=1 Ressort
+Liste=Objet
+SI=COND
+vrai=Etape=1
+faux=Il vous manque un Rouage!
+element=3 Rouage
+Liste=Objet
+SI=COND
+vrai=Etape=1
+faux=Il vous manque un Cadran!
+element=1 Cadran
+Liste=Objet
+SI=COND
+vrai=Etape=1
+faux=Il vous manque une Loupe!
+element=1 Loupe
+Liste=Objet
+SI=COND
+vrai=Etape=1
+faux=Il vous manque une Cloche!
+element=2 cloche
+Liste=Objet
+SI=COND
+vrai=Etape=1
+faux=Il vous manque un Marteau!
+element=1 marteau
+Liste=Objet
+SI=COND
+vrai=Etape=1
+faux=Il vous manque une Vis!
+element=6 Vis
+Liste=Objet
+SI=COND
+vrai=Etape=1
+faux=Il vous manque une Cle!
+element=1 Cle
+Liste=Objet
+SI=COND
+vrai=Objet-3 Eguille;Objet-1 Ressort;Objet-3 Rouage;Objet-1 Cadran;Objet-1 Loupe;Objet-2 cloche;Objet-1 marteau;Objet-6 Vis;Objet-1 Cle;Objet=Reveil matin
+faux=Il vous manque une ou plusieurs pièces pour assemblé se Plan.
+element=1
+Liste=Etape
+COND=10
+(Objet)
+(PAUSE)
+Compile=1

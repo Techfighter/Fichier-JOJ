@@ -1,0 +1,372 @@
+ParadoxBox
+Ceci est un exercise d'entrainement en situation réel pour l'obtention du poste d'agent temporelle.
+Vous devez arrivé au somet de l'édifice avant le passage de l'avions gouvernemental. Celle-ci vous attend a minuit juste, Vous devez trouvez le chemin le plus court jusqu'au sommet en vous fessant le moins possible détecté. Ca ne sera pas faccile ils vous y attendent, il vous faudra utilisez tout les moyens en votre possétion. Arrivé en haut, relâché le ballon d'Hellium gonflable en tirant sur la poigné de votre harnais. Une fois en place le ballon va s'illuminé et l'appareille va l'agrippé au moyen de son crochet spécial et vous tirer a son bord. C'est un anti-parachute tactique fait pour monté dans l'avions sans se possé.
+Vous aurez droit a autend d'essaie que vous voulez, pour arrivé en fin du parcours. Il nécésite sertaine technique spécial et vous devrez faire les étapes dans un ordre bien précis. Vous ne serez pas évalué avant d'être arrivé a un résultat concret, donc prennez tout le temps qu'il vous faudra. Utilisé l'application Quantum pour vous aidé, mais ne le faite qu'une fois dans l'immeuble.
+Signé le commandement tactique.
+(PAUSE)
+Des gens circulent en grand nombre dans la rue, vous êtes a l'extrémité est de Central Park et il est 23:30. Un grand immeuble au vitres tinté est devant a l'adresse qu'on vous a indiquez, c'est le siège de WarpCorp. Ses locaux ont été réservé a cette heure pour votre entrainement et équippé de façon a vous ralentir. Tout a été mis en place pour vous faire râtter votre avions et des defance de l'édifice se rajuste de minutes en minutes. Dans cette mission il est permis de tuer.
+A=Etape=Entrer
+B=Etape=Garder l'entrer;action+1
+> Qu'allez-vous faire ?
+[A) Entrer, B) Le Quantum]
+vrai=Vous entrez dans la compagnie et examiné les lieux. Le gand Hall d'entré et occupé par des agents de sécurité armé et deux portique scanner ferme l'acces pour entré et sortir.
+element=Entrer
+liste=Etape
+SI=COND
+vrai=Vous désobéisez à un ordre de votre commandement, de ne pas utilisé le Quantum en publique. Vous programmez un saut temporelle a 23:59, puis vous montez la garde davant l'immeuble durant une demi-heure. Plusieurs personnent fesant par a l'entrainement se cogne a vous, mais vous les empêchés d'entré. L'application sonne pour vous dire de remonté le temps jusqu'au début et vous réaparaissez juste a côté de vous a 23:30.
+element=Garder l'entrer
+liste=Etape
+SI=COND
+vrai=Vous entrez dans la compagnie et examiné les lieux. Le gand Hall d'entré et occupé par des agents de sécurité armé et deux portique scanner ferme l'acces pour entré et sortir.
+element=Garder l'entrer
+liste=Etape
+SI=COND
+23:31
+A=Etape=Fouiller
+B=Etape=Contourner
+C=Etape=Cavalerie;action+1
+> Qu'allez-vous faire ?
+[A) Se laissé fouiller, B) Le Contourner, C) Le Quantum ]
+vrai=Vous avancez dans le scanner et faite déclanché l'alert. Tout les gardes se mobilisent pour vous interdir l'entré. Vous les occupez une bonne minute pour qu'ils vous fouille au corps, mais votre équippement est solidement attaché. Ce leurs prend du temps.
+element=Fouiller
+liste=Etape
+SI=COND
+vrai=Vous avancez dans le scanner de sortie profitant qu'il n'y ai personne a se moment là. Vous déclanché l'alert et les gardes se retournent confus. Ils se mobilisent pour vous interdir l'entré. Vous les occupez une bonne minute pour qu'ils vous fouille au corps, mais votre équippement est solidement attaché. Ce leurs prend du temps.
+element=Contourner
+liste=Etape
+SI=COND
+vrai=Vous avancez par le premier scanner de disponnible a se moment là. Vous déclanché l'alert et les gardes se retournent confus. Ils se mobilisent pour vous interdir l'entré. Vous les occupez une bonne minute pour faire diverssion, mais vous utilisez le bouton de retour automatique avant qu'ils ne vous en empêche. Alors vous voyez qu'un de vos double essaie aussi de passé le porche en même temps, puis un autre et encore un de plus. Ils sont vite débordé et le dernier arrive a passé.
+element=Cavalerie
+liste=Etape
+SI=COND
+23:32
+A=Etape=Colaborer
+B=Etape=Apat;action+1
+> Qu'allez-vous faire ?
+[A) Sédé votre équippement, B) Le Quantum ]
+vrai=Vous vous laissez fouillé pensant gagné du temps, mais ils trouvent rapidement la commande de l'application et vous la retirent. Vous êtes menoté de enfermé dans une salle d'intérogatoir jusqu'a 00:00.
+element=Colaborer
+liste=Etape
+SI=COND
+vrai=Du coins de l'oeil vous voyez votre double entré par l'autre portillon, il passe innaperçu car l'alarme sonne déjà :) Juste avant qu'ils ne vous retire votre équippement, vous utilisez le Quantum. Pouf vous êtes disparut une minute en arrière!
+element=Apat
+liste=Etape
+SI=COND
+23:33
+Votre entrer n'a pas été des plus discrète! L'alert et donné même s'ils ne vous voient null pare, d'autre vigies vous cherchent à l'intérieur. Attendez-vous a de la compagnie durant la prochaine demi-heure.
+A=Etape=Assensseur
+B=Etape=Escalier
+> Qu'allez-vous faire ?
+[A) Courir dans l'assensseur, B) Monter les escaliers ]
+23:34
+vrai=Vous arrivez au couloir où les trois assensseurs du raie de chaussé se rejoignent.
+element=Assensseur
+liste=Etape
+SI=COND
+vrai=Vous longuez le couloir des assensseurs arrivé entre a un embranchement avec deux cage d'escalier possible.
+element=Escalier
+liste=Etape
+SI=COND
+A=Etape=1SE
+B=Etape=1EE
+C=Etape=1EC
+D=Etape=1EO
+E=Etape=1SO
+> Qu'allez-vous emprunté ?
+[A) Escalie EST, B) Assensseur EST, C) Assensseur CENTRE, D) Assensseur OUEST, E) Escalier OUEST ]
+vrai=Vous grimpez l'escalier Est. Et rencontré l'esquade Alfa qui decendait du 1er. Vous êtes capturez!
+element=1SE
+liste=Etape
+SI=COND
+vrai=Vous montez dans l'assensseur Est. Et rencontré l'esquade delta qui decendait du 3e. Vous êtes capturez!
+element=1EE
+liste=Etape
+SI=COND
+vrai=Vous montez dans l'assensseur Central. Le trajet s'effectue sans interruption, vous êtes seul.
+element=1EC
+liste=Etape
+SI=COND
+vrai=Vous montez dans l'assensseur Ouest. Et rencontré l'esquade Charlie qui decendait du 2e. Vous êtes capturez!
+element=1EO
+liste=Etape
+SI=COND
+vrai=Vous grimpez l'escalier Ouest. Et rencontré l'esquade Bravo qui decendait du 4e. Vous êtes capturez!
+element=1SO
+liste=Etape
+SI=COND
+faux=Compile=0
+element=1EC
+liste=Etape
+SI=COND
+23:39
+Vous arrivez au 4e mais l'étage est désert, comme si tout les vigies c'étaient mobilisé quelque pare d'autre. Vous avez de la chance ou le sense du timing. Un autre pallier d'assensseurs vous attend ici.
+A=Etape=2SE
+B=Etape=2EC
+C=Etape=2SO
+D=Etape=RC
+E=Etape=Reload;action+1
+> Qu'allez-vous emprunté ?
+[A) Monté escalier EST, B) Monté assensseur CENTRE, C) Monté l'éscalier OUEST, D) Redescendre par le même chemin, E) Le Quantum ]
+vrai=Vous empruntez l'escalier EST et monté a toute vitesse les derniers étage jusqu'au toit avant que la section Alfa ne reviennent. Mais la cage d'escalier c'est verrouillé vous étes coincé et null autre choix que de revenir en arrière.
+element=2SE
+liste=Etape
+SI=COND
+vrai=Vous en profitez pour monté encore c'est le dernier assensseur avant le toit. Les portes s'ouvrent et un chien robot vous scane, vous recevez une décharge de 15000 Volt Tazer. Le Quantum se déclanche sois par accident ou par reflex de protection, mais la décharge s'arrête net quand vous reparaissé a côté de vous juste avant que le grand assensseur ne s'ouvre. Le robot en sort et Vous vous glissez dans la cabinne, comme votre homologue disparait emportant avec lui les flechettes conducter. Vous avez le loisir de les arrachés maintenant que vous êtes saufs.
+element=2EC
+liste=Etape
+SI=COND
+vrai=Vous empruntez l'escalier OUEST et pas le temps de réagir que la section Bravo est remonté au 4e pallier. Mais la cage d'escalier c'est verrouillé vous étes coincé et null autre choix que de revenir en arrière.
+element=2SO
+liste=Etape
+SI=COND
+vrai=Vous redescendez en bas par le même assensseur comme les vigies retourne a leurs position. Par chance ils ont tous repassé par le même chemin en sanse contraire et personne ne vous a trouvé. C'est la fin de l'alert aparament.
+element=RC
+liste=Etape
+SI=COND
+vrai=Le Quantum se déclanche et vous réaparaissez juste à côté de vous en trois exemplaire. Vous partez chaqun de votre côté centre, est, ouest pour monté les dernier étages. L'assensseur est votre dernier choix mais le bon, car les deux escaliers se sont bouclé derrière vous et les vigies sont remonté vous prendre. Dans l'assensseur un chien robot vous a scane et vous avez reçu une décharge de 15000 Volt Tazer. Le Quantum se déclanche sois par accident ou par reflex de protection et vous avez pus volé sa place câbinne jusqu'en haut.
+element=Reload
+liste=Etape
+SI=COND
+23:40
+Vous entrez dans une pièce plongé dans l'abscurité total. Un haut-parleur s'adresse a vous. "Vous dépassez nos attentes professeur, victime de votre succes, vous aller donc devoir collaboré au niveau suppérieur. On vous expliquera tout plus tard, pour l'instant on vous attribut un épreuve de taille." Puis, vous ne vous rappelez de rien jusqu'a cette instand.
+Vous êtes presque en haut de l'édifice, dans une autre pièce éclairé une seul sortie. Ne sachant pas commant vous êtes arrivé la, vous regardez l'heure sur votre montre. Le temps file! Des soldats apparaissent dans tout les coins.
+23:57
+(PAUSE)
+Vous sortez dans un long coridor et tout les gardes vous pourchassent. c'est le dernier sprint avant la fin. Vous avez 16 cartouche et tout autand d'énnemie. La porte au bout est verrouillé, il vous faudra la crocheté mais vous n'avez pas le temps de le faire et d'arrêtés vos poursuivants. Vous activez le Quantum comme point de retour et commencé a tirer, un double apparait pour s'occupé de la porte verrouillé. A mesure que vos balles diminuent les siens disparaisse dans son charger ou plustôt déjà consommé. Il ouvre la porte et vous laisse passé devant tandisqu'il vous couvre de ces dernières balles. Après quelque pas votre Quantum s'allume et vous revoila plongé dans le feu de l'action. La porte est a nouveau verrouillé et c'est a votre tour de la crochetée. Votre double tire 11x avant de passé la porte et le revoila repartie. C'est maintenant l'étape la plus importante resté en vie en les gardant a distancent. c'est a vous de joué!
+(PAUSE)
+La dernière section et plus prudente que les autres et elle va surement attaqué une unitée a la fois de façon a vous surprendre sous différent angle. D'est que vous tournerez le dos, ils vous turons, la fuite est impossible. Il vous reste peu de munition pour les éliminé, alors ne les gachés pas.
+Vous devriez vérifié votre arme avant qu'ils n'approchent.
+Commencé par vérrifier votre arme. (Éjecté,Munition,Recharger,Armé,Crant)
+A=Etape=Éjecté
+B=Vous ajoutez des munitions dans le charger.
+C=Vous replacez le charger.
+D=Vous armé la culasse.
+E=Vous enlevez le crant de surté.
+> A quelle étape vous devrier être ?
+[C) Recharger, A) Éjecté, B) Munition, D) Armé, E) Crant. ]
+Score=0
+vrai=Score+1
+faux=Un ennemie arrive et se câche derrière un pilier. Vous appuyer sur la détante et Clic! Enreillage! Vous n'aviez plus de balle dans le charger. Il profite de l'occasion et vous tire dans l'épaule et se câche derrière un pilier! Vous étes grièvement blessé.
+element=Éjecté
+liste=Etape
+SI=COND
+vrai=Vous éjectz le charger de l'arme et constaté qu'il est bien vide. Juste au moment ou un ennemie arrivait et vous n'avez d'autre choix que d'intérompre se que vous faite pour vous câchez.
+element=Éjecté
+liste=Etape
+SI=COND
+A=Vous éjectez le charger.
+B=Etape=Munition
+C=Vous replacez le charger.
+D=Vous armé la culasse.
+E=Vous enlevez le crant de surté.
+> A quelle étape vous devrier être ?
+[A) Éjecté, D) Armé, B) Munution, C) Recharger, E) Crant. ]
+vrai=Score+1
+faux=Un ennemie arrive et se câche derrière un pilier. Vous appuyer sur la détante et Clic! Enreillage! Vous n'aviez pas mis de balle dans le charger. Il profite de l'occasion pour vous tire dans l'avant bras et se câche derrière un pilier! Vous étes grièvement blessé.
+element=Munition
+liste=Etape
+SI=COND
+vrai=Vous restez bien câchez et fouillé votre poche pour trouvez les quelques munition qu'il vous reste. vous en trouvez 5 en tout et vous les introduissez une a une dans le charger.
+element=Munition
+liste=Etape
+SI=COND
+A=Vous éjectez le charger.
+B=Vous ajoutez des munitions.
+C=Etape=Recharger
+D=Vous armé la culasse.
+E=Vous enlevez le crant de surté.
+> A quelle étape vous devrier être ?
+[A) Éjecté, B) Munution, E) Crant, C) Recharger, D) Armé. ]
+vrai=Score+1
+faux=Un ennemie arrive et se câche derrière un pilier. Vous appuyer sur la détante et Clic! Enreillage! Vous aviez oublié de mettre le charger. Il en profite de l'occasion pour vous tire dans la cuisse et se câche derrière un pilier! Vous étes blessé.
+element=Recharger
+liste=Etape
+SI=COND
+vrai=Vous devez changer de câchette radidement avant qu'un ennemie ne vous trouve là. Tout en restant discret, vous arrivez à inséré le charger plein dans le logement de l'arme.
+element=Recharger
+liste=Etape
+SI=COND
+A=Vous éjectez le charger.
+B=Vous ajoutez des munitions.
+C=Vous replacez le charger.
+D=Etape=Armé
+E=Vous enlevez le crant de surté.
+> A quelle étape vous devrier être ?
+[B) Munution, D) Armé, C) Recharger, E) Crant, A) Éjecté. ]
+vrai=Score+1
+faux=Un ennemie arrive et se câche derrière un pilier. Vous appuyer sur la détante et Clic! Enreillage! Vous aviez oublié d'armé la culasse. Il en profite de l'occasion pour vous tire dans le genoux et se câche derrière un pilier! Vous étes très blessé.
+element=Armé
+liste=Etape
+SI=COND
+vrai=Vous n'oubliez pas de tirer sur la culasse pour armé la première balle, et appuyer sur l'arrêtoire de culasse pour que tout sois bien armé. Une fusillade éclatte dans le corridore, plusieurs ennemie sont entré et tirent dans votre direction. Heureusement le pilier où vous vous étes réfugier vous protège completement.
+element=Armé
+liste=Etape
+SI=COND
+A=Vous éjectez le charger.
+B=Vous ajoutez des munitions.
+C=Vous replacez le charger.
+D=Vous armez la culasse.
+E=Etape=Crant
+> A quelle étape vous devrier être ?
+[E) Crant, A) Éjecté, D) Armé, B) Munution, C) Recharger. ]
+vrai=Score+1
+faux=Vous poussez sur le bouton du crant de sécurité qui c'était réanclanché automatiquement entre chaque rechargement. Maintenant tout est prêt pour le combat.
+element=Crant
+liste=Etape
+SI=COND
+vrai=Etape-Éjecté
+element=Éjecté
+liste=Etape
+SI=COND
+vrai=Etape-Munition
+element=Munition
+liste=Etape
+SI=COND
+vrai=Etape-Recharger
+element=Recharger
+liste=Etape
+SI=COND
+vrai=Etape-Armé
+element=Armé
+liste=Etape
+SI=COND
+vrai=Etape-Crant
+element=Crant
+liste=Etape
+SI=COND
+vrai=Trophe=Expert au Pistolet
+faux=Trophe=Débutant au Pistolet
+element=5
+liste=Score
+SI=VAR
+vrai=Un Flash Back vous revien, comme un impression de déjà-vu. L'ennemie va vous encercle dans le desordre: (Droite,Centre,Derrière,Gauche,Devant)
+element=5
+liste=Score
+SI=VAR
+23:58 Minuit moins 2
+Vous comprenez se qui se passe tout a coup, quand vous chercher votre module quantum. On vous l'a dérobé durant votre fuite ou vous l'avez perdus derrière. Il ne sagit pas d'un ennemie ordianire qui vous pourchasse, vous avez tout une troupe de soldat masqué. Il doit s'être servit de votre module pour se multiplié et vous encerclé dans le coridore. Une seule chose a faire tuer l'original et récupéré la boite avant d'aller sur le toit.
+A=Etape=Devant
+B=Vous tirez sur celui de gauche.
+C=Vous tirez sur celui de derrière.
+D=Vous tirez sur celui du centre.
+E=Vous tirez sur celui de droite.
+> Vous devez anticipez la prochaine cible. Laquel choisir ?
+[A) Devant, B) Gauche, C) Derrière, D) Centre, E) Droite. ]
+Score=0
+vrai=Score+1
+faux=Celui-ci disparait dans un éclaire de lumière une fraction de seconde avant que la balle ne le frappe.
+element=Devant
+liste=Etape
+SI=COND
+vrai=Votre instinct vous a dit juste. La balle l'atteint à la poitrine et les quatre autre cibles se volatisent en même temps que lui.
+element=Devant
+liste=Etape
+SI=COND
+A=Vous tirez sur celui de devant.
+B=Etape=Gauche
+C=Vous tirez sur celui de derrièr.
+D=Vous tirez sur celui du centre.
+E=Vous tirez sur celui de droite.
+> Vous devez anticipez la prochaine cible. Laquel choisir ?
+[A) Devant, C) Derrière, B) Gauche, D) Centre, E) Droite. ]
+vrai=Score+1
+faux=Celui-ci disparait dans un éclaire de lumière une fraction de seconde avant que la balle ne le frappe.
+element=Gauche
+liste=Etape
+SI=COND
+vrai=Deux! Votre instinct vous a dit juste. La balle l'atteint à la poitrine et les quatre autre cibles se volatisent en même temps que lui.
+element=Gauche
+liste=Etape
+SI=COND
+A=Vous tirez sur celui de devant.
+B=Vous tirez sur celui de gauche.
+C=Etape=Derrière
+D=Vous tirez sur celui du centre.
+E=Vous tirez sur celui de droite.
+> Vous devez anticipez la prochaine cible. Laquel choisir ?
+[A) Devant, B) Gauche, D) Centre, E) Droite, C) Derrière. ]
+vrai=Score+1
+faux=Celui-ci disparait dans un éclaire de lumière une fraction de seconde avant que la balle ne le frappe.
+element=Derrière
+liste=Etape
+SI=COND
+vrai=Et de trois! Votre instinct vous a dit juste. La balle l'atteint à la poitrine et les quatre autre cibles se volatisent en même temps que lui.
+element=Derrière
+liste=Etape
+SI=COND
+A=Vous tirez sur celui de devant.
+B=Vous tirez sur celui de gauche.
+C=Vous tirez sur celui derrière.
+D=Etape=Centre
+E=Vous tirez sur celui de droite.
+> Vous devez anticipez la prochaine cible. Laquel choisir ?
+[D) Centre, A) Devant, B) Gauche, C) Derrière, E) Droite. ]
+vrai=Score+1
+faux=Celui-ci disparait dans un éclaire de lumière une fraction de seconde avant que la balle ne le frappe.
+element=Centre
+liste=Etape
+SI=COND
+vrai=Encore un! Votre instinct vous a dit juste. La balle l'atteint à la poitrine et les quatre autre cibles se volatisent en même temps que lui.
+element=Centre
+liste=Etape
+SI=COND
+A=Vous tirez sur celui de devant.
+B=Vous tirez sur celui de gauche.
+C=Vous tirez sur celui derrière.
+D=Vous tirez sur celui du centre.
+E=Etape=Droite
+> Vous devez anticipez la prochaine cible. Laquel choisir ?
+[A) Devant, B) Gauche, E) Droite, C) Derrière, D) Centre. ]
+vrai=Score+1
+faux=Celui-ci disparait dans un éclaire de lumière une fraction de seconde avant que la balle ne le frappe.
+element=Droite
+liste=Etape
+SI=COND
+vrai=Plus qu'une chance. Vous appuyer sur la détante et Boom! Le coût de feu résonne! Juste comme un ennemie arrivait et vous lui tiré dans le coup! Il tombe derrière un des piliers. Il est sonner.
+element=Droite
+liste=Etape
+SI=COND
+vrai=Etape-Devant
+element=Devant
+liste=Etape
+SI=COND
+vrai=Etape-Derrière
+element=Derrière
+liste=Etape
+SI=COND
+vrai=Etape-Droite
+element=Droite
+liste=Etape
+SI=COND
+vrai=Etape-Gauche
+element=Gauche
+liste=Etape
+SI=COND
+vrai=Etape-Centre
+element=Centre
+liste=Etape
+SI=COND
+vrai=Trophe=Drill de Combat
+faux=Trophe=Essaie Erreur
+element=5
+liste=Score
+SI=VAR
+vrai=Toute les blessures que vous croyiez avoire eu ont disparus et les ennemies s'évaporent un a un pour n'en laisser qu'un devant vous. Il semble que vous aillers renversé le cours du temps a votre avantage et personne n'est mort, car il s'agisait de munition incomodante non létal. La mémoire vous revien maintenant que s'efface les dernière trace du paradox. C'était vous qui deviez tenté de vous arrêté ou vous retardez au maximum. Quel plus grand ennemie, pour anticipé votre stratégie, que vous même?
+element=5
+liste=Score
+SI=VAR
+Minuit moins une!
+Vous ramassez le Quantum sur le corps de l'homme inconscient. La vois libre enfin, vous courez jusque sur la passerelle du toit. Il n'y a pas de trace de l'avion et vous devriez déjà entendre ces moteurs. Vous priez pour qu'il ne sois pas trop tard et tirer sur le cordon de votre harnais. Les attaches s'ouvrent et libert et un ballon d'helium gonflable qui s'élumine a quelque cents pied au dessus de vous. Minuit.
+(PAUSE)
+A cette instand, le rugissement des moteurs arrivent à vous comme le tonner. Il était tout près et son approche silencieuse, vous informe qu'il s'agit d'un appareil du type furtif. Il s'accroche a votre fil guidé par le ballon lumineux et vous hisse jusque dans l'espace cargo dans un chock au limite du supportable. Vous avez réussie la mission. Félicitation Agent du Temps 21.
+Profitez bien de votre vole, qui vous aménera à votre prochaine affectation.
+FIN
+Le nombre de fois que vous vous êtes servie du Quantum:
+(action)
+A=Ground hugs day.
+(Trophe)
+A=(RAZ)
+B=sourcefile=Voyager du temps
+> Options:
+[A) Nouvelle Partie, B) Continué. ]
+Compile=1

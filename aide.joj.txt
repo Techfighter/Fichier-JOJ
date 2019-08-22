@@ -1,0 +1,154 @@
+Ce code Ouvre (prog.txt) et commence la lecture ligne par ligne.
+Si un caractère spéciaux apparaisse au début ou à la fin d'une chaine, il n’apparaîtra pas, sinon ce compilateur fera un simple display.
+/
+Exemple1: A=Hello world!}
+Sur "A=" en début de ligne Donne
+"Hello world!" dans la variable A Si vous sélectionnez l'option A) dans un choix multiple avec le ‘Input’. Si les symboles spéciaux apparaissent à la fin de string, elles prendront effet si vous sélectionner l'option relier.
+Ce caractère n'apparait pas dans le texte lorsqu'il est display après le choix.
+} = Quitte le compilateur, > = Ajoute 1 au score, < = enlève 1 au score.
+{ = change le nom du fichier source (6 en tout).
+*(Je vais retirer cette structure pour simplifier le code avec les nouvelles commande moins de bug)
+/
+Exemple2: [A) Oui, B) Non]
+Sur "[" en début de ligne Donne
+"[A) Oui, B) Non]" en display & Ouvre un input key "? >"
+Si aucun A et B n'est définis, tout entré input retournera un message d'erreur:
+"Ce n'est pas une réponse valide!"
+Celles-ci se doivent d'être correctement éditées les lignes (précédentes)
+En entrant une lettre dans le input un message correspondant s'affiche et sort.
+[A, B, C, D, E ] Disponible. On peut en ajouter dans l'éditer au besoin.
+/
+Exemple3:
+Dans le fichier "prog.txt" vous avez toute liberté de modifier les variables.
+Comme A, B, C, D, E, F sont des strings modifiables à volonté, les variables numériques sont également transformables durant la lecture du scripte.
+Trappez le nom de la variable numérique suivie de =, +, -.
+(Noter que tous les commandes ne sont pas sensibles à la case).
+Hp=3  (modifie Hp à la valeur mentionnée de 3)
+Hp+10 (modifie Hp = le contenue + 10)
+Hp-1  (modifie Hp = le contenue - 1)
+Hp=?  (Modifie Hp = nombre aléatoire, Ran:1-9, Ran2:1-99, Ran3:1-999)
+Les variables numériques sont: Lv, Xp, Np, Ap, Gp, Hp, Mp, Ep, Sp, Score, action
+Autre ajouté: Fr, En, Ag, Vt, In, Ch, Pb, Karma 
+Les variables string sont:(Titre), (File), (Log), (Objet), (equipe), (magie), (metier)
+/
+Fonction spécialisé:
+(clk), (score), (%) = state, (Quit), (action)=Action, (Raz)=reset var
+(Status), STATUS=, STATUS+, STATUS-, Liste de condition de santé exemple POISON
+(?), (AIDE), (HELP), AIDE, HELP. Servent a affiché la liste des commandes utilisable.
+(Etape) Visualise la liste des Etapes existant.
+Etape= (ajoute un élément dans la liste étape), Etape- (retire un élément existant de la liste.)
+(INPUT) Ouvre une boite de dialogue « Input ? » sans les choix de réponse et s'enregistre seulement dans la variable Key et Log 
+-IA répond, calculatrice, jeux, date, heure, jour, ‘aaaammjj?’, ‘Horraire?’, ‘LUNDI?’, ‘LUNDI’ (<- ajoute heur + commentaire) 
+(PAUSE) Même choix que Input mais sert surtout a espacé les étapes dans le fichier texte.
+vrai=, faux=, element=, liste=, stock une chaine d'instruction ou d'élément dans les variables.
+-L'élément est de type numérique ou string et la liste peux être n'importe quoi: Liste ou variable, local ou interne
+Exemple: element=e, liste=Log, vrai=HP+12;score+1:, faux=(Raz);Compile=0: Va vérifier que le choix E a déjà été pris 
+SI=COND, SI=VAR, SI>VAR, SI<VAR, (SI=COND), (SI=VAR), (SI>VAR), (SI<VAR) pour voir le résultat contenue.
+/
+exemple4: Objet=Nom de l'objet
+Ajoute dans la liste "Objets" un nom de plus à la suite séparé par des virgules
+(objet) Trapper cette commande pour faire apparaitre la liste de l'inventaire.
+Inventaire= 'objet1', 'objet2', 'objet3' (En liste et ordre chronologique)
+Même chose pour les autres liste objet=, equipe=, metier=, magie=, quete=
+/
+exemple5: Condition logique et liste. Vrai=, Faux=, liste=, element=, SI=COND
+Sur la ligne SI=COND le compilateur vérifie une condition précise et retourne un texte (vrai) ou (faux) rattaché au résultat. La condition (element) et cherché dans la (liste) nommé. C'est valable pour objet, equipe, metier, magie, quete. Par exemple. vrai=Vous déverrouillez la porte, Faux=Vous n'avez pas la clé liste=objet, element=clé de la porte, suivie à la fin de (SI=COND) pour vérifier.
+Utilisez (SI=VAR) pour vérifier une variable numérique. liste = HP, element = 1
+/
+Exemple 6: méthode d'écriture.
+Il faudrait faire en plusieurs fichiers une arborescence non linéaire, qui comprend des fins multiple. Et des moyens de revenir en arrière sur ses branches. Pour l'instant j'ai dépanné en utilisant la commande file sur une réponse input. Il ne faut pas oublier de rajouté la commande spécial (new) au début du fichier pour remettre par default une nouvelle aventure sans perdre les données importante.
+/
+Les fichier.txt se lisent de haut en bas. Titre, introduction, évènement, réponse, question, choix de réponse. Le tout sans fourchette logique. Les quêtes linéaires sont décevantes pour les joueurs, surtout si on doit tout recommencer. Une autre stratégie possible est de répété plusieurs fois la même structure:
+Exemple 3 chance de trouver la bonne réponse, une seul vous donne un point >.
+/
+Vous pourriez mettre en option Nord, Sud, Est, Ouest, Chercher une quête, Camper. Voyager entre les différents points cardinaux déclenche un changement de fichier. La quête linéaire fait partie du fichier zone et vous donne un objet quête. Camper est une action commune qui redonne des points de vie et avance le temps. En revenant au départ si vous avez tous les objets de quête et qu'il n'est pas encore trop tard vous réussissez votre mission ou échoué lamentablement ?
+/
+Nouveauté:
+(Raz) Mettre tous les liste = [], les variables = 0 et strings = "" dans une seul commande.
+(?), (AIDE), (HELP), AIDE, HELP. Servent a affiché la liste des commandes utilisable.
+(Etape) Visualise la liste des Etapes existant.
+Etape= (ajoute un élément dans la liste étape), Etape- (retire un élément existant de la liste.)
+(INPUT) Ouvre une boite de dialogue « Input ? » sans les choix de réponse et s'enregistre seulement dans la variable Key et Log 
+(PAUSE) Même choix que Input mais sert surtout a espacé les étapes dans le fichier texte.
+vrai=, faux=, element=, liste=, stock une chaine d'instruction ou d'élément dans les variables.
+(vrai), (faux), (element), (liste), (SI=COND) ou (SI=VAR) pour voir le résultat contenue.
+Nouvelle façon de codé avec : ; entre les éléments résulté
+Exemple: A=HP+1:MP-1: etc... (A, B, C, D, E, vrai, faux, peuvent donner une infinité de chose.)
+-Le compilateur fera tous les choses dans une seule fois.
+-Quand vous utiliser la liste étape, celle si n'est pas accompagné d'un message, (discret)
+-Vous ne pouvez utiliser la liste "liste", elle est utile aux processus interne.
+Toute les * ou / en début de ligne, n'apparaissent pas durant l'exécution (Note scripte ou Commande voilé :)
+/
+Exemple:
+Si voulez vérifiez si le jouer va bien faire les étapes 1 à 5 dans le bon ordre.
+Si il réussit du premier coup, il aura le Trophée Mystique, si non le Trophée Transformation.
+/
+/Vous recopiez cette structure autant de fois qu'il y a de choix en test.
+A=Etape=Verrouillage réussie   <-- Cette étape change dans la seconde structure en B, etc.
+B=Capture du Vissage réussie.
+C=Enregistré sa Voix réussie.
+D=Assommé l'ennemi réussie.
+E=Transformation réussie.
+> Quelle stratégie vous adopterez ici ?
+[A) Verrouillé, B) Capture, C) Enregistrement, D) Neutralisé, E) Transformation. ]
+Score=0
+vrai=Score+1
+faux=Vous deviez commencé par verrouillé le Satellite sur l'ennemi. Correction en coure...
+element=Verrouillage réussie
+liste=Etape
+SI=COND
+/
+/Efface toute les Étapes utiliser précédemment.
+vrai=Etape-Verrouillage réussie
+element=Verrouillage réussie
+liste=Etape
+SI=COND
+vrai=Etape-Capture Vissage réussie
+element=Capture Vissage réussie
+liste=Etape
+SI=COND
+vrai=Etape-Enregistré Voix réussie
+element=Enregistré Voix réussie
+liste=Etape
+SI=COND
+vrai=Etape-Assommé un ennemi réussie
+element=Assommé un ennemi réussie
+liste=Etape
+SI=COND
+vrai=Etape-Transformation réussie
+element=Transformation réussie
+liste=Etape
+SI=COND
+/
+/Ajout du Trophée à la fin de l'épreuve
+vrai=Trophe=Mystique 1er Classe
+faux=Trophe=Première Transformation
+element=5
+liste=Score
+SI=VAR
+/
+/Ajouter plus de chose a une seul condition. Exemple étape crochetage réussie
+vrai=Score+1
+faux=Score-1
+element=Crochetage
+liste=Etape
+SI=COND
+vrai=Objet=Trésor
+faux=Le coffre explose, c'est un piège. Boom!
+element=Crochetage
+liste=Etape
+SI=COND
+/
+Ou plus simple
+/
+Vrai=Crochetage réussie:XP+5:Trophe=Expert du lockpit:Objet-Crochet:GP+314:Etape-Coffre1:
+Faux=Vous n'avez pas réussie a crocheté:Objet-Crochet:XP+5:
+element=Crochet
+Liste=Objet
+SI=COND
+S’il vous reste un crochet et que le coffre1 n’est pas ouvert, XP monte toujours en cas de réussite ou d'écheque, mais aussi le total de crochets diminue de 1
+/
+Bugs: (J'ai limité à 5 choix de réponse pour alléger le scripte et retiré le bug f.)
+-La ligne de commande apparait malgré (affiche = 0) juste dans les choix (a b c d e) qui utilise un caractère spéciaux, {, }, <, > (Bientôt les faire disparaitre). 
+-Il faut mettre la structure dans un Def et toutes les variables en global, Je sauve 6x la place actuelle.
+-Avec une autre Def variable global qui gère aussi les choix de réponse A, B, C, D, E ca diminue encore plus.

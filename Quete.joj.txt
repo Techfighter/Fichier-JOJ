@@ -1,0 +1,275 @@
+L'Orbe de LunA.
+Vous alliez chez le forgeron pour vendre votre vieil équipement de Guerre, quand une éclaire tombe du ciel sur le chemin devant vous. Une puissante Magie viens d'être à l'œuvre juste là, car un homme d'apparence noble viens d'apparaitre comme s'il était tombé du ciel. Il vous salut chaleureusement
+A=Vous lui rendez son salut et vous approchez pour ouvrir la discussion.
+B=Il semble familier avec vous comme s'il vous connaissait déjà. Il porte un étrange médaillon dans le coup.
+> Que faite-vous ?
+[A) Salué l'inconnu, B) L'examiné]
+-=Pour vous c'est la première, mais pour moi c'est peut-être la dernière fois que nous nous rencontronS=-=Simple formalité alors de vous envoyer en QuêtE, mais ce jour était crucial pour mon aveniR=-
+*Vous ne comprenez pas la langue qui emploi mais ça sonne étrangement familier.
+A=-=Aller jusqu'au TemplE de LunA et rapporté moi l'amulettE ensuite nous discuterons plus à notre aisE=-
+> Vous avez besoin de mon aide ?
+[A) Questionner]
+-=Peut-être devrions nous commencé par retrouver l'OrbE de lunA, malheureusement en temps qu'immortellE je ne puis entrer moi-même dans le TemplE=-
+-=Voudriez-vous partir en Quête, je vous récompenserez comme aucun mortel ne l’a jamais été avanT=-=Vous semblez un homme d'action et vous connaissez mieux que moi ce MondE=-=Bien entendus je ne vous force pas, mais vous est moi avons une destinée liÉ=-
+A=-=Elle a le pouvoir de nous aider dans ce genre de situation compliquE=-=L'OrbE est une pierre de mémoire qui comme moi a la particularité de voyagé dans un autre axe dimentionneL=-=J'en ai besoin pour réparé ma faute et rentré chez moI=-
+> Qu'est-ce que c'est Etteluma?
+[A) Questionner]
+*Vous n'est pas riche et c'est bien pourquoi vous étiez en route pour vendre votre matériel de guerre au village, mais cet homme étrange vous promet une grande récompense si vous accepté sa quête.
+A=Quete=AmulettE de LunA
+B=Il retire son médaillon et vous le passe au coup. Tout à coup le temps se figue et il vous parle dans un dialecte très claire. "-=Avant que vous ne refusiez, comprenez tout ceci a déjà eue lieuX=-=Ne vous retirez pas aujourd'hui, je vous prédis votre avenir=-=Une guerre se prépare, vous y serez du côté des vainqueurS et deviendrai Paladin=-=Avant tout vous aurez besoin de la Pierre pour survivre a la bataille et vous me la rapporteraI=-"
+> Que décidez-vous ?
+[A) Accepté, B) Déclinez votre aide]
+Puis l'homme caressa son médaillon et disparut. Très peu de temps après le pays fus envahi par des Orcs et vous fur obligez de participé pour survivre. Durant cette campagne on vous confia un détachement de soldat vétéran, pour que vous mené en discrétion de petit mission vital.
+Quete=Repousser les Orcs
+A=Sur le chemin du Temple vous êtes pris dans une embuscade par les Orcs à 10 contre 1. Plusieurs de vos hommes tombent dans cette escarmouche. Vous êtes oubligé de vous replié quel malchange mais la milice est contante de vous savoir a leurs côté car une grande bataille s'annonce.
+B=Vous vous battez a 10 contre 100. Les Orcs sont bien trop fort sur ce rapport de force et tous vos homme se fond tué. Vous êtes oubligé de vous replié quel malchange mais la milice est contante de vous savoir a leurs côté car une grande bataille s'annonce.
+> Vous êtes le Chef, quel est votre plan ?
+[A) Retrouvez la Pierre, B) Faire la Guerre]
+Le matin une bataille surprise éclatte.
+A=Etape=nord
+B=Etape=est
+C=Etape=ouest
+D=Etape=sud
+> Sur quel front vous batterez-vous ?
+[A) Nord, B) Est, C) Ouest, D) Sud]
+vrai=Une hors ennemie arrive du nord quelque mille, le rapport de force est a votre désavantage et ils vous caussent beaucoup de perte.
+element=nord
+liste=Etape
+SI=COND
+vrai=Une hors ennemie arrive de l'est par centaines, le rapport de force est égaux et ils sont dificilement repoussez.
+element=est
+liste=Etape
+SI=COND
+vrai=Une hors ennemie arrive de l'ouest par disaines, le rapport de force est a votre avantage et ils sont facilement repoussez.
+element=ouest
+liste=Etape
+SI=COND
+vrai=Une hors ennemie arrive du sud par disaines, le rapport de force est a votre avantage et ils sont facilement repoussez.
+element=sud
+liste=Etape
+SI=COND
+vrai=Etape-nord
+element=nord
+liste=Etape
+SI=COND
+vrai=Etape-est
+element=est
+liste=Etape
+SI=COND
+vrai=Etape-ouest
+element=ouest
+liste=Etape
+SI=COND
+vrai=Etape-sud
+element=sud
+liste=Etape
+SI=COND
+Dans la fin d'avant-midi. Une nouvelle offensive éclate.
+A=Etape=nord
+B=Etape=est
+C=Etape=ouest
+D=Etape=sud
+> Sur quel front vous batterez-vous ?
+[A) Nord, B) Est, C) Ouest, D) Sud]
+vrai=Une hors ennemie arrive du nord quelque mille, le rapport de force est a votre désavantage et ils vous caussent beaucoup de perte.
+element=sud
+liste=Etape
+SI=COND
+vrai=Une hors ennemie arrive de l'est par centaines, le rapport de force est égaux et ils sont dificilement repoussez.
+element=est
+liste=Etape
+SI=COND
+vrai=Une hors ennemie arrive de l'ouest par disaines, le rapport de force est a votre avantage et ils sont facilement repoussez.
+element=nord
+liste=Etape
+SI=COND
+vrai=Une hors ennemie arrive du sud par disaines, le rapport de force est a votre avantage et ils sont facilement repoussez.
+element=ouest
+liste=Etape
+SI=COND
+vrai=Etape-nord
+element=nord
+liste=Etape
+SI=COND
+vrai=Etape-est
+element=est
+liste=Etape
+SI=COND
+vrai=Etape-ouest
+element=ouest
+liste=Etape
+SI=COND
+vrai=Etape-sud
+element=sud
+liste=Etape
+SI=COND
+Dans le début d'après-midi. Une nouvelle offensive éclate.
+A=Etape=nord
+B=Etape=est
+C=Etape=ouest
+D=Etape=sud
+> Sur quel front vous batterez-vous ?
+[A) Nord, B) Est, C) Ouest, D) Sud]
+vrai=Une hors ennemie arrive du nord quelque mille, le rapport de force est a votre désavantage et ils vous caussent beaucoup de perte.
+element=est
+liste=Etape
+SI=COND
+vrai=Une hors ennemie arrive de l'est par centaines, le rapport de force est égaux et ils sont dificilement repoussez.
+element=sud
+liste=Etape
+SI=COND
+vrai=Une hors ennemie arrive de l'ouest par disaines, le rapport de force est a votre avantage et ils sont facilement repoussez.
+element=ouest
+liste=Etape
+SI=COND
+vrai=Une hors ennemie arrive du sud par disaines, le rapport de force est a votre avantage et ils sont facilement repoussez.
+element=nord
+liste=Etape
+SI=COND
+vrai=Etape-nord
+element=nord
+liste=Etape
+SI=COND
+vrai=Etape-est
+element=est
+liste=Etape
+SI=COND
+vrai=Etape-ouest
+element=ouest
+liste=Etape
+SI=COND
+vrai=Etape-sud
+element=sud
+liste=Etape
+SI=COND
+En fin d'après-midi, une forte résistance est touché a l'entré de la fôret. Vos hommes s'épuissent.
+A=Etape=nord
+B=Etape=est
+C=Etape=ouest
+D=Etape=sud
+> Sur quel front vous batterez-vous ?
+[A) Nord, B) Est, C) Ouest, D) Sud]
+vrai=Une hors ennemie arrive du nord quelque mille, le rapport de force est a votre désavantage et ils vous caussent beaucoup de perte.
+element=ouest
+liste=Etape
+SI=COND
+vrai=Une hors ennemie arrive de l'est par centaines, le rapport de force est égaux et ils sont dificilement repoussez.
+element=est
+liste=Etape
+SI=COND
+vrai=Une hors ennemie arrive de l'ouest par disaines, le rapport de force est a votre avantage et ils sont facilement repoussez.
+element=sud
+liste=Etape
+SI=COND
+vrai=Une hors ennemie arrive du sud par disaines, le rapport de force est a votre avantage et ils sont facilement repoussez.
+element=nord
+liste=Etape
+SI=COND
+vrai=Etape-nord
+element=nord
+liste=Etape
+SI=COND
+vrai=Etape-est
+element=est
+liste=Etape
+SI=COND
+vrai=Etape-ouest
+element=ouest
+liste=Etape
+SI=COND
+vrai=Etape-sud
+element=sud
+liste=Etape
+SI=COND
+Les hords ennemie sont vaincu sur le dernier front, ils se replients dans la forêt.
+Quete-Repousser les Orcs
+Vous avez gagnez cette bataille aujourd'hui mais les monstres reviennent vous prendre a revert durant la nuit. La guerre est terrible et presque toutes les hommes sont mort cette fois, ils ne vous ont pas fait pas de cadeaux.
+Vous êtes bientôt l'unique survivant lorsque l'homme réapparait au milieu de la bataille. Il se bat à vos côté en qualité d'Immortelle et il couvre votre retraite jusqu'au Temple de LunA. A partir d'ici vous êtes seul. Les monstres ne pourrons pas entrer tant que le Demi Dieux en garde l'entré.
+A=Ca n'est pas difficile. Elle est accrochée au-dessus de l’hôtel de Pierre et personne ne vous empêche. Seul un valeureux mortelle a le pouvoir de la prendre. Vous l'accroché a votre coup et ressortez du Temple.
+B=Vous reconnaissez parfaitement cette objet pour l'avoir vu plus tôt. C'est la même que porte NahtanoJ le fils de Chronos! Comment peux t'elle être à deux endroits à la fois ? Vous l'attrapez et resorté du Temple.
+> Quelle décision prendrez-vous ?
+[A) Rapporté l'Amulette, B) L'examiné]
+Votre fin est proche, l'Immortelle est partie et vous êtes assiégez par l'armé Orcs. Votre seule chance est de vous servir des pouvoirs magiques de la pierre.
+Quete=Vincre seul une armée
+A=-=Je veux parler à votre CheF, conduisez moi a luI=-
+B=C'est la technique la plus téméraire et insensé jamais tenté, mais ça marche car vous êtes détenteur des pouvoirs immortelle. L'armé vous charge pour vous bloquer le passage et plusieurs coups vous atteignent. A l'article de la morte vous remontez de quelque seconde dans le temps et ajusté votre esquive et apprenez à mieux bloqué les coups. Puis vous ne découvrez pas essaie erreur a mieux placé vos coups et ainsi de suite. Vous devenez de plus en plus rapide comme si vous étiez dans une sorte de transe breseker. A mille contre un vous prenez l'avantage sur eux et vous leurs ordonné de se Rendre.
+C=Le temps s'arrête... vous avancez parmi eux sans qu'ils ne vous voient. Vous trouvez leurs chef et lui coupé la tête d'un coup d'épée. En continuant a éliminé tous ces généraux vous relâchez votre emprise sur le temps pour créer la surprise. Vous dite -=Sniam am ed éssirép uo, pmahc el rus suov-zedneR=-
+D=C'est la technique la plus téméraire et insensé jamais tenté, mais ça marche car vous êtes détenteur des pouvoirs immortelle. L'armé vous charge pour vous bloquer le passage et plusieurs coups vous atteignent. A l'article de la morte vous remontez de quelque seconde dans le temps et ajusté votre esquive et apprenez à mieux bloqué les coups. Puis vous ne découvrez pas essaie erreur a mieux placé vos coups et ainsi de suite. Vous devenez de plus en plus rapide comme si vous étiez dans une sorte de transe breseker. A mille contre un vous prenez l'avantage sur eux et vous leurs ordonné de se Rendre. Le temps s'arrête... vous avancez parmi eux sans qu'ils ne vous voient. Vous trouvez leurs chef et lui coupé la tête d'un coup d'épée. En continuant a éliminé tous ces généraux vous relâchez votre emprise sur le temps pour créer la surprise. Vous dite-=Sniam am ed éssirép uo, pmahc el rus suov-zedneR=-
+> Comment vous y prendrez-vous ?
+[A) Parlez-au Chef Ennemie, B) Fraile un passage, C) Immobiliat, D) Apothéose]
+L'armé Orcs s'enfuit dans le désordre total. Ils ont pris peur au son de votre voix, pour eux vous vous étiez changé en Dieu! Ils ont vaincu moralement peut-être par la dure raclé que NahtanoJ leurs a livé précédemment devant le temple!
+Quete-Vincre seul une armée
+Le fils de Chronos s'avance vers vous pour vous féliciter de votre -=victoire incontestable=-. Vous arrivez à comprendre sa langue maintenant que vous portez l'Amulette de la Lune. Il vous explique les propriétés de cette univers dont vous faites l'expérience tout comme lui, c'est vraiment incroyable!
+A=Vous lui donné l'Orbe magique, qu'il accroche à son coup avec le plus grande soulagement. A cet instant vous remarquez qu'il ne portait plus la sienne. -=Siamroséd dnetta't énitsed ednarg enu av ,ima nom snoréver suon suoN=-
+B=A cette instant vous remarquez qu'il ne portait plus la sienne. Vous lui donné l'Orbe magique, qu'il accroche à son coup avec le plus grande soulagement. -=Siamroséd dnetta't énitsed ednarg enu av ,ima nom snoréver suon suoN=-
+> Qu'allez-vous faire de la Pierre ?
+[A) Lui Donner, B) L'examiné]
+Il disparait appelé par son destin et quelque chose vous dis que la chance va être de votre côté. Vous avez rendus service aux Dieux et évité leurs courroux. Il vous reste du travail car les Orcs sont partie rasé la campagne pour se venger, mais désormais ils vous craignent!
+Quete-AmulettE de LunA
+Trophe=Ami des Dieux
+(PAUSE)
+Revenant de la guerre charger de tout votre équipement. Vous marchiez dans les bois, quand vous rencontrez de nouveau l'homme qui vous salut.
+A=Vous lui rendez son salut et vous approchez pour ouvrir la discussion.
+B=Son attitude est Neutre non hostile. Il semble au bord du découragement. Vous comprenez qu'il est nouveau par ici car il n'a pas son Amulette.
+> Que fait-vous ?
+[A) Salué aussi, B) L'examiné]
+-=Je dois vous sembler curieuX-=-Alors que pour moi le reste du monde marche à l’envers=-=Le bien et le maL n'est qu'un point de vuE=-=Se curieux état des choses m'oblige à me déplacé de cette façon et communiqué ainsI=-=Je fais un voyage vers le passÉ=-
+A=-=Mon PèrE a décidé de me punir a ca façon et m'a bannie dans cette Terre pour un temps où je dois faire mes preuves parmi le mortelle=-
+> Vous êtes l'envoyé des Dieux ?
+[A) Questionner]
+-=Je vois que nous ne parlons pas la même langue, et vos coutumes me semble des plus étrangE=-
+A=-=J'ai vu les paysans déterré des cadavre de monstre=-=Puis vous est arrivé dans la plainE=-=Vous avez pris de l'argent à ces pilleur de tombe, et ils se sont mis a pleurÉ=-=Vous avez incendié leur demeure et relevé les mort avec votre magie, après les avoirs équipé comme des guerrierS=-=Puis vous vous êtes enfuit, laissant les monstres attaqué les villageois dans la panique la plus complètE=-=Vous devez être un NécromancieN plutôt belliqueuX=-
+> Qu'est ce vous avez vu ?
+[A) Questionner]
+-=Je ne suis pas là pour vous juger de vos vilaines, mais vos actes quoi qu'aberrant pourraient servir ma caussE=-=Si vous accepteZ?=-
+-=J'ai vu ce qui viens de se passé plus tôt dans la plaine, vos pouvoirs sont grand et diaboliquE=-
+A=-=Je suis JonathaN fils de ChronoS envoyez sur TerrE pour purgé ma painE=-
+> Qui est Vous ?
+[A) Questionner]
+-=Bonjour Mortel=-=Quel chance pour moi de tombé par hasard sur un guerrier-t-elle que vouS=-
+Il vous salut et attend que vous passiez votre chemin. Quel étrange rencontre vous n'y comprenez rien, il doit venir de loin celui-là.
+Quete=Premiere Rencontre
+(PAUSE)
+Vous entendez des cris de détresse provenant d'une petite ferme isolée. Des Orcs attaquent de pauvres paysans sur votre route.
+A=C'est à toute vitesse que vous enfilez votre équipements et attrapez votre épée. Puis vous charger a la course et prié qu'il n'est pas trop tard pour ces pauvres gens.
+B=Vous avez vu suffisamment de bataille pour être prudent dans ce genre de situation. Vous les contournez lentement et arrivé par derrière pour vous assurer l'effet de surprise.
+> Qu'aller vous faire ?
+[A) Courir tête baissé, B) Les prendre de stratégie]
+A=Arrivé a la ferme, vous massacrez les monstres jusqu'au dernier.
+B=Vous vous mêlez a la bataille et massacrez les monstres tous en protègent les pauvres paysans.
+> Qu'aller vous faire ?
+[A) Attaquer les Orcs, B) Protégé les paysans]
+Les paysans sont sait et sauve mais leur ferme brûle toujours.
+A=Heureusement que vous êtes expérimenté dans le combat du feu. Vous attrapez une pelle dans le jardin et lancer de la terre sur l'incendie.
+B=Vous ne risquez pas votre vie dans les flammes c'est déjà trop avancé. Ces gens sont au désespoir mais heureux d'être en vie.
+> Qu'aller vous faire ?
+[A) Eteindre l'incendie, B) laisser brûler]
+Le feu est éteint maintenant et les paysans vont pouvoir commencer à rebâtir grâce à vous.
+A=Objet=Loot
+B=Vous préférez ne pas les touches ils ont peut-être des maladies. Les paysans s'en charge.
+> Qu'aller vous faire ?
+[A) Fouiller les Orcs, B) Non]
+vrai=Vous fouillez les morts et récupéré tous leurs équipements, Arme, Armure, Richesse.
+element=Loot
+liste=Objet
+SI=COND
+Les fermiers pleurent toutes les larmes de leur âme. Leur vie est ruinée!
+A=Vous ne désirez pas vous attardé plus longtemps et il n'y a rien que vous puissiez faire pour eux. Vous partez prestement.
+B=Trophe=Paladin
+> Que décidez-vous ensuite ?
+[A) Repartir à l'instant, B) Donner de l'or]
+faux=Vous leurs donné tout l'Or que vous possédez pour les aidé à reconstruire leurs vie. Ils vous remercient du fond du cœur.
+element=Paladin
+liste=Trophe
+SI=COND
+Les paysans commence a creusé des tombes pour enterré les monstres. En quittant le lieu du sinistre, vous apercevez le même homme sur la plaine qui a assisté à toute la scène et vous regarde perplexe. C'est lui que vous avez rencontré plus tôt qui parlait une langue étrangère. Il disparait dans un rayon de lumière comme si les cieux s’ouvraient pour l'aspiré.
+Vous allez rencontrer le Sage pour lui raconter votre aventure. Il fait des recherches dans son Grimoire et trouvé le passage qui explique de qui il s’agit.
+C'était un Fils de Cronos. La perception du temps et aussi différente pour les être de certain dimension et divinité. Comme NahtanoJ vie dans notre monde mais en marche arrière dans le temps. Pour lui une personne au karma Bon ou Mauvais est relative à l’ordre naturel des évènements. Un guerrier Aberrant ou malveillant montera plus vite dans l’estime des Dieux du plan inversé. Par exemple "Le héros est arrivé de nul pare, intervient pour sauver les fermier, qu'il a porté des coups pour tuer les Orcs, avant de stopper l’incendie de la ferme et repartir au loin." Junior a vu tout autre chose: "Le guerrier est venu de loin pour incendier la ferme, ressuscité les orques, bloqué des coups et c’est enfuit vers nul. Parti sans aidé les fermiers laissé en détresse." La particularité du fils de Chronos est qu’il fait un long voyage vers le passé sur une vie normal. Comme c‘est un demi-Dieu il est homme immortelle et vous le rencontré sur terre. Celui-ci même s’il  exprime en langage commun parle à l’envers et toujours de la fin jusqu’au début de la conversation ce qui demande un effort d’adaptation pour se comprendre des deux côté.
+La quête qu’il vous donne n’est pas aisé à comprendre et a réalisé, si vous jouer autre chose qu’un Karma Aberrant. Lui est chaotique bon. Il est possible de le croisé a quelque reprise avant son départ pour l’autre Plan d’existence, en milieu de son voyage d’exploration terrestre et finalement à son arrivé qui est encore plus déboussolant. Vous pouvez le retrouver pour lui donner l’orbe de la lune, afin qu’il rentre chez lui et qui a également le pouvoir, de vous faire reculer le temps aux mortels qui le porte. Ou vous pouvez le gardé pour vous et s’amusé à recommencer les quêtes que vous avez raté au paravent comme celle à venir. A votre convenance mais chronos se vengera quand il verra que son fils ne rentre pas, s’il s’est fait trahir par un simple mortel.
+(PAUSE)
+(%)
+A=Il avait une fois.
+B=sourcefile=Menu:Compile=1
+> Options:
+[A) Nouvelle Partie, B) Quitter]
+(Raz)

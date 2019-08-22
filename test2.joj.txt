@@ -1,0 +1,78 @@
+/Voici cinq manière différente de lancer 5 Magie de différent niveau de puissance. Alfa, Beta,.. Omega.
+Endurance et Mana Total Restor.
+EP=105
+MP=105
+(EP)
+(MP)
+vrai=Bienvenu dans se tutoriel d'expérimentation de la Magie.;Ce qu'il vous faut savoire c'est qu'il y a 5 école différente pour lancer un même pouvoir. Toute utilise une stratégie différente bassé sur sa culture et qui s'apparente a un acsent, comportant ces force et ces faiblesses. Il y a les Sorts, les Runes, les disciplines, les techniques et les forces élémentaires.;(pause);Pour commencer choisisez la catégorie Sort.;A=Etape=A;B=Pas les Runes un Sort;C=Pas une Discipline un Sort;D=Pas une Technique un Sort;E=Pas l'Élémentarisme un Sort;> Choisisez une catégorie ?;[A) Sorts, B) Runes, C) Disciplines, D) Techniques, E) Élémentarisme. ]; 
+element=0
+Liste=score
+SI=VAR
+vrai=Ensuite, essaillez les Runes. Noté que plus vous avancez dans la niveau de pouvoir, plus grand sont ces influences.;A=Pas un Sort les Runes;B=Etape=B;C=Pas une Discipline les Runes;D=Pas une Technique les Runes;E=Pas l'Élémentarisme les Runes;> Choisisez une catégorie ?;[A) Sorts, B) Runes, C) Disciplines, D) Techniques, E) Élémentarisme. ]; 
+element=1
+Liste=score
+SI=VAR
+vrai=Très bien, maintenant les Disciplines.;A=Pas un Sort les Disciplines;B=Pas les Runes les Disciplines;C=Etape=C;D=Pas une Technique les Disciplines;E=Pas l'Élémentarisme les Disciplines;> Choisisez une catégorie ?;[A) Sorts, B) Runes, C) Disciplines, D) Techniques, E) Élémentarisme. ]; 
+element=2
+Liste=score
+SI=VAR
+vrai=Maintenant, les Techniques.;A=Pas un Sort les Techniques;B=Pas les Runes les Techniques;C=Pas une Discipline les Techniques;D=Etape=D;E=Pas l'Élémentarisme les Techniques;> Choisisez une catégorie ?;[A) Sorts, B) Runes, C) Disciplines, D) Techniques, E) Élémentarisme. ]; 
+element=3
+Liste=score
+SI=VAR
+vrai=Excélent, il ne reste plus que l'Élémentarisme.;Vous avez peut-être remarqué en lancant des pouvoirs de plus en plus fort, que la dernière 'Omega' produit chaque fois un dommage maximal en consomment d'un coup tout votre potentiel de Mana ou MP. Pour cette fois l'Élémentarisme fera l'inverse, vous restorez un maximal de points de santé ainsi la Mana en 'invoquent.;B=Pas les Runes l'Élémentarisme;C=Pas une Discipline l'Élémentarisme;D=Pas une Technique l'Élémentarisme;E=Etape=E;> Choisisez une catégorie ?;[A) Sorts, B) Runes, C) Disciplines, D) Techniques, E) Élémentarisme. ]; 
+element=4
+Liste=score
+SI=VAR
+vrai=Fin de la classe de Magie. Vous pouvez maintenant continué passer se points a explorez les différente possibilitées.; 
+element=5
+Liste=Score
+SI=VAR
+vrai=A=Etape=A;B=Etape=B;C=Etape=C;D=Etape=D;E=Etape=E;> Choisisez une catégorie ?;[A) Sorts, B) Runes, C) Disciplines, D) Techniques, E) Élémentarisme. ]; 
+element=5
+Liste=score
+SI>VAR
+Vrai=Vous lancez un Sort;A=EP-?:MP-15;B=EP-?:EP-?:MP-30;C=EP-?:EP-?:EP-?:MP-45;D=EP-?:EP-?:EP-?:EP-?:MP-60;E=Ep=0:MP=0;> Choisissez une Action.;[A) Alfa, B) Beta, C) Mega, D) Gama, E) Omega. ];Etape-A;Score+1; 
+element=A
+Liste=Etape
+SI=COND
+/Message Tuto
+vrai=(EP);(MP);Noté que les Sorts consomment toujours la même quantité de Mana par Niveau de puissances, mais qu'ils sont aléatoire sur leurs effets sur la cibles.; 
+element=0
+Liste=Score
+SI=VAR
+Vrai=Vous tracez une Rune;A=EP-15:MP-?;B=EP-40:MP-?:MP-?;C=EP-45:MP-?:MP-?:MP-?;D=EP-60:MP-?:MP-?:MP-?:MP-?;E=Ep=0:MP=0;> Choisissez une Action.;[A) Alfa, B) Beta, C) Mega, D) Gama, E) Omega. ];Etape-B;Score+1; 
+element=B
+Liste=Etape
+SI=COND
+/Message Tuto
+vrai=(EP);(MP);Noté ici que le processus inverse se retrouve chez les Runes. Elles produissent toujours le même résultat Magique par Niveau de puissances, mais elles consomment aléatoirement la Mana.; 
+element=1
+Liste=Score
+SI=VAR
+Vrai=Vous Dancez et Chantez;A=EP-?:MP-?;B=EP-?:EP-?:MP-?:MP-?;C=EP-?:EP-?:EP-?:MP-?:MP-?:MP-?;D=EP-?:EP-?:EP-?:EP-?:MP-?:MP-?:MP-?:MP-?;E=Ep=0:MP=0;> Choisissez une Action.;[A) Alfa, B) Beta, C) Mega, D) Gama, E) Omega. ];Etape-C;Score+1; 
+element=C
+Liste=Etape
+SI=COND
+/Message Tuto
+vrai=(EP);(MP);Noté le changement pour une Magie lancer a la manière artistique. Ces Disiplines sont purement aléatoire sur l'effet et sur la consomation de Mana.; 
+element=2
+Liste=Score
+SI=VAR
+Vrai=Vous utilisez une Technique;A=EP-15:MP-15;B=EP-30:MP-30;C=EP-45:MP-45;D=EP-60:MP-60;E=Ep=0:MP=0;> Choisissez une Action.;[A) Alfa, B) Beta, C) Mega, D) Gama, E) Omega. ];Etape-D;Score+1; 
+element=D
+Liste=Etape
+SI=COND
+/Message Tuto
+vrai=(EP);(MP);Obcervez se nouveau retournement chez les Techniques, comme chez les Runes. Une parfaite stabilité des résultats en Magie, un résultat répété et une consomation prévisible de Mana.; 
+element=3
+Liste=Score
+SI=VAR
+Vrai=Vous appelez les Éléments;A=EP-15:EP-?:MP-15:MP-?;B=EP-30:EP-?:MP-30:MP-?;C=EP-45:EP-?:MP-45:MP-?;D=EP-60:EP-?:MP-60:MP-?;E=Ep=105:MP=105;> Choisissez une Action.;[A) Alfa, B) Beta, C) Mega, D) Gama, E) Omega. ];Etape-E;Score+1; 
+element=E
+Liste=Etape
+SI=COND
+vrai=(EP);(MP);Observé cette dernière école de sortilège, elle puisent ces effets dans l'environement et superposent puissament et imparfaitement tout les caractères des différentes écoles. Comme quoi chacune puise déjà a ca façon, de la Mana et la transforme en probabilité. Un force stable de base augmenté d'une autre aléatoire aussi bien en effet Magique quand réserve de Mana.; 
+element=4
+Liste=Score
+SI=VAR

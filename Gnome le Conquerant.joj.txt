@@ -1,0 +1,152 @@
+Gnome le Conquérant
+Vous êtes dans le poste de pilotage sous le ballon dirigeable. Un ciel immense brillant de mille feux vous entour à l'infini. C'est tout à la fois le jour et la nuit, dépendant du côté ou il vous plait de regardé. Pas de Terre en vus depuis deux siècle. Biensûr vous pourriez naviguer aux astres qui vous entourent, mais à quoi bon. Il n'existe plus de destination physique depuis votre départ précipité, quand le monde s’est écroulé. Vous avez réunie ici tout ce qu'il reste de l'ancien royaume et flotté aux grés des vents comme l'aurais fait Noé le dernier survivant.
+Mais les Gnomes n’abandonnent jamais un projet une fois qu'il est lancé. Surtout s'il s’agit d'une bêtise qui n'a pas la moindre chance de réussite. De toute façon vous n'avez rien de mieux à faire et qui plus ai vous avez égaré votre astrolabe le jour du départ. Il ne vous reste qu'une chose à faire repartir en quête d'un nouveau monde, quitte à le fabriqué vous-même. Vous lancer un poison volant voyageur avec un message à vos amis du ciel.
+quete=Trouver une Terre
+A=Vous aller vers la Proue. Vers l'avant de la Nef et chercher des traces d'avarie. Tout est solidement attaché à sa place et les voiles tiennent bon. Vous volez à vitesse maximal vers nulle part comme d'habitude. Devant le ciel s'assombrit avec de gros nuage et vous passez au-dessus du Soleil.
+B=Vous aller vers la Poupe. Vers l'arrière de la Nef et chercher des traces d'avarie. Le gouvernait, les dérives, ainsi que l'aileron arrière, sont toujours très solidement arrimé pour maintenir le cap. Le compas n'a plus été d'une grande utilité dernièrement mais fait curieux vous le voyez qui s'agite maintenant. C'est un bon présage.
+C=Vous aller à Bâbord. Vers la gauche de la Nef et chercher des traces d'avarie. De ce côté, un large filet d'argent est suspendus dans le vide pour cueillir des poisons volant. Vous en attrapez régulièrement du côté aurore, ainsi que toute sorte d'autre créature astral comestible. L'eau est obtenu par condensation ou quand il pleut.
+D=Vous aller à Tribord. Vers la droite de la Nef et chercher des traces d'avarie. De ce côté vous rangé tous vos outils de travail, il vous manque cruellement de matériaux de construction. Votre Navire a fait c'est preuve ces dernier siècle et va durer infiniment vous le souhaitez. Au loin vous voyez le crépuscule.
+E=Vous inspecté l'état du poste de pilotage. Tous les instruments fonctionnent normalement. Seule le baromètre reste d'un quel qu’on que intérêt ici, il s'agite démontrant des changements dans votre zone atmosphérique. Cela annonce du grain dans très peu de temps une tempête se prépare.
+> Vous devriez examiner la Nef, ou voulez-vous aller d’abord ?
+[A) Proue, B) Poupe, C) Bâbord, D) Tribord, E) Le Poste de pilotage ]
+Vous voyez les étendards qui tournent dos au vent, vous allez traverser quelque zone turbulente. Vous devriez inspecter, comme à votre habitude, les sections de l'Aéronef pour s'assurer qu'il n'y est pas d'accident fâcheux et voir que tout est bien ficelé.
+quete=Faire l'Inspection du Dirigeable
+A=Vous aller vers la Proue. Vers l'avant de la Nef et chercher des traces d'avarie. Tout est solidement attaché à sa place et les voiles tiennent bon. Vous volez à vitesse maximal vers nulle part comme d'habitude. Devant le ciel s'assombrit avec de gros nuage et vous passez au-dessus du Soleil.
+B=Vous aller vers la Poupe. Vers l'arrière de la Nef et chercher des traces d'avarie. Le gouvernait, les dérives, ainsi que l'aileron arrière, sont toujours très solidement arrimé pour maintenir le cap. Le compas n'a plus été d'une grande utilité dernièrement mais fait curieux vous le voyez qui s'agite maintenant. C'est un bon présage.
+C=Vous aller à Bâbord. Vers la gauche de la Nef et chercher des traces d'avarie. De ce côté, un large filet d'argent est suspendus dans le vide pour cueillir des poisons volant. Vous en attrapez régulièrement du côté aurore, ainsi que toute sorte d'autre créature astral comestible. L'eau est obtenu par condensation ou quand il pleut.
+D=Vous aller à Tribord. Vers la droite de la Nef et chercher des traces d'avarie. De ce côté vous rangé tous vos outils de travail, il vous manque cruellement de matériaux de construction. Votre Navire a fait c'est preuve ces dernier siècle et va durer infiniment vous le souhaitez. Au loin vous voyez le crépuscule.
+E=Vous inspecté l'état du poste de pilotage. Tous les instruments fonctionnent normalement. Seule le baromètre reste d'un quel qu’on que intérêt ici, il s'agite démontrant des changements dans votre zone atmosphérique. Cela annonce du grain dans très peu de temps une tempête se prépare.
+> Les nuages encombrent le ciel. Que voulez-vous inspecté ?
+[A) Proue, B) Poupe, C) Bâbord, D) Tribord, E) Le Poste de pilotage ]
+A=Vous aller vers la Proue. Vers l'avant de la Nef et chercher des traces d'avarie. Tout est solidement attaché à sa place et les voiles tiennent bon. Vous volez à vitesse maximal vers nulle part comme d'habitude. Devant le ciel s'assombrit avec de gros nuage et vous passez au-dessus du Soleil.
+B=Vous aller vers la Poupe. Vers l'arrière de la Nef et chercher des traces d'avarie. Le gouvernait, les dérives, ainsi que l'aileron arrière, sont toujours très solidement arrimé pour maintenir le cap. Le compas n'a plus été d'une grande utilité dernièrement mais fait curieux vous le voyez qui s'agite maintenant. C'est un bon présage.
+C=Vous aller à Bâbord. Vers la gauche de la Nef et chercher des traces d'avarie. De ce côté, un large filet d'argent est suspendus dans le vide pour cueillir des poisons volant. Vous en attrapez régulièrement du côté aurore, ainsi que toute sorte d'autre créature astral comestible. L'eau est obtenu par condensation ou quand il pleut.
+D=Vous aller à Tribord. Vers la droite de la Nef et chercher des traces d'avarie. De ce côté vous rangé tous vos outils de travail, il vous manque cruellement de matériaux de construction. Votre Navire a fait c'est preuve ces dernier siècle et va durer infiniment vous le souhaitez. Au loin vous voyez le crépuscule.
+E=Vous inspecté l'état du poste de pilotage. Tous les instruments fonctionnent normalement. Seule le baromètre reste d'un quel qu’on que intérêt ici, il s'agite démontrant des changements dans votre zone atmosphérique. Cela annonce du grain dans très peu de temps une tempête se prépare.
+> Le Vent se lève. Que voulez-vous inspecté ?
+[A) Proue, B) Poupe, C) Bâbord, D) Tribord, E) Le Poste de pilotage ]
+A=Vous aller vers la Proue. Vers l'avant de la Nef et chercher des traces d'avarie. Tout est solidement attaché à sa place et les voiles tiennent bon. Vous volez à vitesse maximal vers nulle part comme d'habitude. Devant le ciel s'assombrit avec de gros nuage et vous passez au-dessus du Soleil.
+B=Vous aller vers la Poupe. Vers l'arrière de la Nef et chercher des traces d'avarie. Le gouvernait, les dérives, ainsi que l'aileron arrière, sont toujours très solidement arrimé pour maintenir le cap. Le compas n'a plus été d'une grande utilité dernièrement mais fait curieux vous le voyez qui s'agite maintenant. C'est un bon présage.
+C=Vous aller à Bâbord. Vers la gauche de la Nef et chercher des traces d'avarie. De ce côté, un large filet d'argent est suspendus dans le vide pour cueillir des poisons volant. Vous en attrapez régulièrement du côté aurore, ainsi que toute sorte d'autre créature astral comestible. L'eau est obtenu par condensation ou quand il pleut.
+D=Vous aller à Tribord. Vers la droite de la Nef et chercher des traces d'avarie. De ce côté vous rangé tous vos outils de travail, il vous manque cruellement de matériaux de construction. Votre Navire a fait c'est preuve ces dernier siècle et va durer infiniment vous le souhaitez. Au loin vous voyez le crépuscule.
+E=Vous inspecté l'état du poste de pilotage. Tous les instruments fonctionnent normalement. Seule le baromètre reste d'un quel qu’on que intérêt ici, il s'agite démontrant des changements dans votre zone atmosphérique. Cela annonce du grain dans très peu de temps une tempête se prépare.
+> Le Vent souffle! Que voulez-vous inspecté ?
+[A) Proue, B) Poupe, C) Bâbord, D) Tribord, E) Le Poste de pilotage ]
+A=Vous aller vers la Proue. Vers l'avant de la Nef et chercher des traces d'avarie. Tout est solidement attaché à sa place et les voiles tiennent bon. Vous volez à vitesse maximal vers nulle part comme d'habitude. Devant le ciel s'assombrit avec de gros nuage et vous passez au-dessus du Soleil.
+B=Vous aller vers la Poupe. Vers l'arrière de la Nef et chercher des traces d'avarie. Le gouvernait, les dérives, ainsi que l'aileron arrière, sont toujours très solidement arrimé pour maintenir le cap. Le compas n'a plus été d'une grande utilité dernièrement mais fait curieux vous le voyez qui s'agite maintenant. C'est un bon présage.
+C=Vous aller à Bâbord. Vers la gauche de la Nef et chercher des traces d'avarie. De ce côté, un large filet d'argent est suspendus dans le vide pour cueillir des poisons volant. Vous en attrapez régulièrement du côté aurore, ainsi que toute sorte d'autre créature astral comestible. L'eau est obtenu par condensation ou quand il pleut.
+D=Vous aller à Tribord. Vers la droite de la Nef et chercher des traces d'avarie. De ce côté vous rangé tous vos outils de travail, il vous manque cruellement de matériaux de construction. Votre Navire a fait c'est preuve ces dernier siècle et va durer infiniment vous le souhaitez. Au loin vous voyez le crépuscule.
+E=Vous inspecté l'état du poste de pilotage. Tous les instruments fonctionnent normalement. Seule le baromètre reste d'un quel qu’on que intérêt ici, il s'agite démontrant des changements dans votre zone atmosphérique. Cela annonce du grain dans très peu de temps une tempête se prépare.
+> La pluie tombe violement! Que voulez-vous inspecté ?
+[A) Proue, B) Poupe, C) Bâbord, D) Tribord, E) Le Poste de pilotage ]
+Quete-Faire l'Inspection du Dirigeable
+Trophe=Inspection de la Nef
+Une Grande créature aillé se pose à l'avant de la Nef et vous regarde.
+A=Etape=parler
+B=Ce n'est pas là que vous pourrez parler à votre nouvelle amie.
+C=Ce n'est pas là que vous pourrez parler à votre nouvelle amie.
+D=Ce n'est pas là que vous pourrez parler à votre nouvelle amie.
+E=Ce n'est pas là que vous pourrez parler à votre nouvelle amie.
+> La grêle tombe horizontalement! Où allez-vous ensuite ?
+[A) Proue, B) Poupe, C) Bâbord, D) Tribord, E) Le Poste de pilotage ]
+vrai=Vous aller directement à l'avant à la rencontre de votre nouvelle amie. C'est Crépuscula qui vient vous rendre visite de temps en temps et vous apporte des nouvelles du Ciel. C’est une gargouille cousin des dragons, une race aillé qui comme vous a survécu à la fin du monde. Avant elle se changeait en pierre juché sur les cathédrale quand le jour revenait, mais maintenant que le jour et la nuit ne change plus elle ne dort jamais. Crépuscule vous apporte un présent pour vous aider dans votre quête. L'objet gros comme un nid d'hirondelle roule sur le pont arrière, c'est une pépite d'Orichalque brute! Mais où a-t-elle pus trouvé ça?
+faux=Elle s’est envolé avant que vous ne la rejoignez. La tempête qui approche l'a peut-être effarouché. Elle a jeté quelque chose qui bille sur le pont arrière. Vous allez voir ce que c'est.
+element=parler
+liste=Etape
+SI=COND
+A=Vous ramassez le minerait précieux pour l'examiné.
+> Des éclairs frappe le ballon. Que voulez-vous faire ?
+[A) Prendre l’objet ]
+Objet=Minerait d'Orichalque
+L'objet que vous tenez n'appartient pas à votre monde. L'Orichalque est un métal brillant comme l'Or et légué comme la craie, il se travaille très bien et ne pourra jamais rouillé. Il vous vient une idée lorsque vous le regardé dans votre main. Vous devez le rapporté à votre atelier.
+Quete=Fabriqué un instrument
+A=Ce n'est pas là que vous avez rangé vos outils.
+B=Ce n'est pas là que vous avez rangé vos outils.
+C=Ce n'est pas là que vous avez rangé vos outils.
+D=Etape=atelier
+E=Ce n'est pas là que vous avez rangé vos outils.
+> Le Tonère gronde. Où allez-vous ensuite ?
+[A) Proue, B) Poupe, C) Bâbord, D) Tribord, E) Le Poste de pilotage ]
+vrai=Vous aller directement à l'atelier sur le pont Bâbord et commencé à usiner le morceau de métal. Vous prenez un grand soin à polir l'objet et lui donné un maximum de précision. Lorsque vous avez terminé et assemblé les différente composante, vous contemplé le belle ouvrage scintillant au faible soleil.
+faux=Un éclaire viens de foudroyé le pont de gauche et tout votre atelier. Vos outils sont réduit en cendre quel malheur vous accable.
+element=atelier
+liste=Etape
+SI=COND
+Objet-Minerait d'Orichalque
+vrai=Objet=Astrolabe doré
+faux=Vous traversé une forte turbulence qui vous fait tribuchez. Malheureusement, vous avez du lâché l'objet pour vous agrippé et il a roulé par-dessus bord.
+element=atelier
+liste=Etape
+SI=COND
+vrai=Trophe=Première Création
+faux=Un éclaire viens de foudroyé le pont de gauche et tout votre atelier. Vos outils sont réduit en cendre quel malheur vous accable.
+element=atelier
+liste=Etape
+Vous n'avez jamais connu de vents aussi fort et le ciel s'emplit d'aurores aux couleurs inimaginables. Il faut que vous sachiez ou vous êtes sur la carte. Vous pouvez mesure votre position à l'aide des astres qu'il reste autour de vous, Aller au poste de pilotage pour voire cela.
+Quete=Relevez votre position
+A=Ce n'est pas là que vous pourrez relever votre relevé votre position.
+B=Ce n'est pas là que vous pourrez relever votre relevé votre position.
+C=Ce n'est pas là que vous pourrez relever votre relevé votre position.
+D=Ce n'est pas là que vous pourrez relever votre relevé votre position.
+E=Etape=navigation
+> Une aurore traverse le pont. Où allez-vous ensuite ?
+[A) Proue, B) Poupe, C) Bâbord, D) Tribord, E) Le Poste de pilotage ]
+vrai=Vous aller directement au poste de pilotage et utiliser votre nouvelle instrument de mesure pour relever votre position. Vous notez très précisément les coordonnes dans votre livre de bord, qui n'est plus à jour depuis quelque siècles, et constaté la distance parcourut. Vous êtes sur le point de sortie de l'univers connu et cette tempête que vous apercevez en est la limite visuelle.
+element=navigation
+liste=Etape
+SI=COND
+Quete-Relevez votre position
+vrai=Trophe=Navigation Astral
+faux=Votre carte viens de s'envolé lorsqu'un coup de vents brisa plusieurs carreaux de votre cabine. Bon, il vous faudra vous en passé.
+element=navigation
+liste=Etape
+Il ne vous reste pas beaucoup de temps avant d'entré dans l'aurore et quitter l'univers connue. Vous devez remonter le filet d'argent pour stocker les derniers poissons que vous avez pris dans la journée, avant de sortir de l'univers. Car vous ne savez pas à quand la prochaine pèche sera possible ni même si il aura a mangé de l'autre côté.
+Quete=Rentré le filet
+A=Ce n'est pas là que vous pourrez relever le filet de pêche.
+B=Ce n'est pas là que vous pourrez relever le filet de pêche.
+C=Etape=pêche
+D=Ce n'est pas là que vous pourrez relever le filet de pêche.
+E=Ce n'est pas là que vous pourrez relever le filet de pêche.
+> Le Vent souffle. Où allez-vous ensuite ?
+[A) Proue, B) Poupe, C) Bâbord, D) Tribord, E) Le Poste de pilotage ]
+vrai=Vous aller directement à Tribord pour remonter le winch du filet. Ouf juste à temps avant qu'un coup de vent ne l'arrache et que vous perdiez toute la prise de la journée.
+faux=Un coup de vent arrache le filet d'argent et la prise de la journée s'envole dans les étoile.
+element=pêche
+liste=Etape
+SI=COND
+Quete-Rentré le filet
+vrai=Trophe=Pêche In extrémiste
+faux=Ne vous inquiété pas il y a ce qu'il faut de congelé a la calle, vous ne mourez pas de fait tout de suite.
+element=pêche
+liste=Etape
+Vous avez fait tout ce que vous pouviez pour vous préparer avant la grande tempête. Il ne vous reste plus qu'à aller à la barre et tenir bon pour sauver votre Dirigeable ainsi que votre vie.
+Quete=Bravé la Tempête
+A=Ce n'est pas là que vous pourrez tenir la Barre.
+B=Etape=Tenir la barre
+C=Ce n'est pas là que vous pourrez tenir la Barre.
+D=Ce n'est pas là que vous pourrez tenir la Barre.
+E=Ce n'est pas là que vous pourrez tenir la Barre.
+> Les étoiles s'éteigne une a une. Où allez-vous ensuite ?
+[A) Proue, B) Poupe, C) Bâbord, D) Tribord, E) Le Poste de pilotage ]
+vrai=Vous aller directement à la Poupe pour prendre la Barre, car le poste de pilotage viens d'être détruit d'un autre coup de vent dévastateur. Vous devez vous attaché solidement surtout à cause de votre petite taille, mais heureusement que vous êtes experte en nœud. Le ciel s'assombrit et vous ne voyez plus aucun étoile même les nuages s'efface. La lumière, le vent, la foudre et la pluie, tout s'efface est redevient a l'état d'allégorie. Vous flotteriez si vous n'étiez pas attaché et le froid vous envahis.
+faux=Un des câbles d'encrage arrière se rompe et la pont s'incline vers la poupe. Vous tribuchez et roulé sur toute la longueur de la Nef avant de raccrochez in extrémiste à la Barre. Vous décidez de vous attacher très solidement pour ne pas tomber dans le vide. A ce moment vous entré dans l'Aurore Astral et tout devient noir. La tempête a disparu mais aussi tout le reste.
+element=Tenir la barre
+liste=Etape
+SI=COND
+Quete-Bravé la Tempête
+vrai=Trophe=Capitaine Émérite
+faux=Trophe=Survivant
+element=Tenir la barre
+liste=Etape
+SI=COND
+Fin du Chapitre 1
+(TROPHE)
+(OBJET)
+(Etape)
+(pause)
+A=(new):'Conseille, visité tous les endroits une première fois et recommencé en lisant bien les indices'.
+B=sourcefile=Menu:compile=1
+> Voulez-vous recommencé une partie ?
+[A) OUI, B) NON ]
+(pause)
+(raz)

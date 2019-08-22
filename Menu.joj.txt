@@ -1,0 +1,18 @@
+(File)
+Loading 100%
+WarpCorp vous souhaite la bienvenu.
+Editeur de micro scénario aventure text avec peu de mémoire a traver un compilater python.
+Réaliser par Jonathan Bédard et inspiré de lieux commun litéraire 2018.
+A) Oiseau d'Or (Frères Grimm)
+B) Holocauste (Doc.Stranglove)
+C) Gnome le Conquerant (Fantastique)
+D) Ian-Fleming (Espionage)
+E) Quête (Fantastique)
+A=sourcefile=OiseauOr
+B=sourcefile=holocauste
+C=sourcefile=Gnome1
+D=sourcefile=wi-fleming
+E=sourcefile=Quete
+> Faite un Choix de Scénario.
+[A) Grimm, B) Holocaust, C) Gnome, D) Spy, E) Quête. ]
+Compile=1

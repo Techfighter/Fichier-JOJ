@@ -1,0 +1,4 @@
+A=score=1:score+1:score-1:action=1:action+1:action-1:Xp=1:AG=1:fr=1:vt=1:en=1:ch=1:pb=1:in=1:karma=1:lv=1:NP=1:HP=1:MP=1:EP=1:SP=1:Xp+1:AG+1:fr+1:vt+1:en+1:ch+1:pb+1:in+1:karma+1:lv+1:NP+1:HP+1:MP+1:EP+1:SP+1:Xp-6:AG-6:fr-6:vt-6:en-6:ch-6:pb-6:in-6:karma-6:lv-6:NP-6:HP-6:MP-6:EP-6:SP-6:Vous prenez l'arme du garde:objet=AK74:(clk):(Xp):(AG):(fr):(vt):(en):(ch):(pb):(in):(karma):(lv):(NP):(HP):(MP):(EP):(SP):(log):(score):(action):(%):-=SALUT=-:Hello World!:destination=Mine-Field:quete=sniper:metier=scalveger:magie=magie:equipe=Renard:etape=1:trophe=half-life:
+> ? Que voulez-vous faire ?
+[A) Test instruction ]
+(?)

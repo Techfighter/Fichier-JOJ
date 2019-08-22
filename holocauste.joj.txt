@@ -1,0 +1,192 @@
+
+JOUR DE L'HOLOCAUSTE.
+  ******
+**********
+ ********
+    **
+   ****
+Un puissant éclat lumineux suivie d'une vague de chaleur éprouvante vous réveille au petit matin, vous sautez du lit comme si vos draps étaient en feu.
+A=Vous sautillez sur le planché brulant jusqu'a la fenêtre, les yeux clos pour ne pas être éblouit. Le verre est calciné vous n'y voyez vraiment rien.
+B=Vous attendez que l'éclat lumineux passe.
+> Aller voir à la fenêtre ?
+[A) OUI, B) NON ]
+Tout à coup un puissant tremblement de terre  suivie d'un boom assourdissant, fait voler tout le verre en éclat. Vous sentez vos sourcils rôtir et vos narines s’emplissent d'une odeur d'ozone étouffante. L'air est électrique même si chez vous le réseau est interrompu.
+A=Vous enfilez rapidement vos vêtements, vos botes, un manteau de laine et vos lunette de soleil pour sortir voire ce qui c'est passé. Un météore peut-être, ça ne serait pas nouveau ? Dans votre poche vous trouvez
+B=Vous ne pouvez rester là plus longtemps, la maison est en feu. Vous vous habillez et sortez! Dans votre poche vous trouvez
+> Vous sortez voir ?
+[A) OUI, B) NON ]
+Objet=Bouteille Vodka
+En regardant au-dessus de la forêt. Vous comprenez avec effroi la cause de l'explosion. Vous voyez un champignon atomique rutilant qui s'élèvent dans le ciel sibérien! Incandescent comme 100 levés de soleil, puis qui s'éteint peu à peu. Une pluie brulante tombe sur votre tête et vous vous sentez tout drôle presque défaillir!
+A=Vous prenez une gorgée de Vodka dans votre poche de manteau et ça va déjà mieux. Un gros avion vol au-dessus de vous.
+B=Vous baissez la tête et attendez que ça passe. Vous êtes sous le choc mais ça va aller. 
+> Prendre un remontant ?
+[A) OUI, B) NON ]
+Vos oreilles bourdonnent toujours mais vous sentez une nouvelle explosion tout près de votre maison. Celle-ci est beaucoup moins forte et ne semble pas nucléaire, vous voyez une boule de feu monté de sa source.
+A=C'est bien un gros avion qui viens de s'écrasé! Vous cherchez des survivants.
+B=Vous craignez qu'il arrive une autre explosion atomique mais rien ne se passe.
+> Vous allez voir ça?
+[A) OUI, B) NON ]
+Vous arrivez au lieu de l'écrasement et réalisé qu'il s'agit d'un appareille militaire américain. La pluie soudaine qui précéda l’explosion nucléaire à réussit à éteindre en partie l'incendie.
+A=Heureusement que le feu n'a pas atteint la forêt, c'est une chance que les réservoirs de l'avions était à sec. C'est certainement la cause de son naufrage ou des conséquences de l'onde de choc.
+B=Il y a trop de fumé pour voir s'il y a des survivants a bord c'est dangereux.
+> Chercher la cause du crash ?
+[A) OUI, B) NON ]
+...Paf! Un parachutiste vous atterrie dessus sans sommation. Il roule par terre inconscient. 
+A=Objet=Trousse de survie de l'Air-Force:Objet=Chapeau de Cowboy:Objet=Combinaison Chauffante:Objet=Document plan 'R':Objet=Couche sale:Berk!
+B=Vous préférez ne pas toucher cette étranglé. Il est peut-être irradier, mais vous portez a ces lèvre une gorgée de Vodka pour le réanimer...
+> Fouillez l'homme inconscient ?
+[A) OUI, B) NON ]
+L'homme est mort, il n'y a rien que vous puissiez faire pour lui. Vous décidez de l'enterré.
+vrai=A=Objet-Trousse de survie de l'Air-Force:Objet=Automatique calibre 45:Objet=2 Boite de cartouche:Objet=4 Ration concentré de survie pour 1 jour:Objet=Bousole:Objet=Petite Pharmacie:Objet=Manuelle miniaturisé combiné de conversation en Russe et de la Bible:Objet=100$ en Rouble:Objet=100$ en Or:Objet=9 Tablette de chewing-gum:Objet=Sachet de préservatif:Objet=3 Paire de bas Nylon:Objet=3 Bâton de Rouge à lèvre;B=Alors peut-être plus tard.;> Voulez-vous fouillez Trousse de survie de l'Air-Force ?;[A) OUI, B) NON ]; 
+faux=  ******
+element=Trousse de survie de l'Air-Force
+Liste=Objet
+SI=COND
+vrai=A=Objet-Petite Pharmacie:Objet=Antibiotique:Objet=Morphine:Objet=Pilule Vitaminé:Objet=Pilule Stimulante:Objet=Pilule Somnifer:Objet=Pilule tranquillisante;B=Alors peut-être plus tard.;> Voulez-vous fouillez: Petite Pharmacie ?;[A) OUI, B) NON ]; 
+faux=**********
+element=Petite Pharmacie
+Liste=Objet
+SI=COND
+vrai=A=Objet-2 Boite de cartouche:Objet=50 Cartouche de 45;B=Alors peut-être plus tard.;> Voulez-vous déballé '2 Boite de cartouche' ?;[A) OUI, B) NON ]; 
+faux= ********
+element=Bousole
+Liste=Objet
+SI=COND
+vrai=A=Vous charger 15 Balles dans le chargeur:Objet-50 Cartouche de 45:Objet=35 Cartouche de 45:oBJET-Automatique calibre 45:Objet=Automatique calibre 45 (charger);B=Vous ne chargez pas l'arme.;> Voulez-vous chargé Automatique 45 avec Cartouche de 45 ?;[A) OUI, B) NON ]; 
+faux=    **
+element=Automatique calibre 45
+Liste=Objet
+SI=COND
+vrai=A=Vous vous creusez la tête à déchiffrer le document d'aviation en américain en utilisant la petite Bible. ATTAQUE MASSIVE PLAN 'R'. Consignes d'attaque: Pour être sûre que l'ennemie ne pourra pas intercepté de message phonique ou faire parvenir de faux messages. Le CRM114 sera branché sur tous les circuits de réception. L'indicatif de base d'urgence sera composé sur le cadrant du CRM. Ce qui bloquera tous les messages, sauf ceux qui seront précédé de l'indicatif du code. Code indicatif 'OPE'. 1) Verrouillez l'indicatif. 2) Branché tous les circuits de communication sur l'indicatif du CRM. 3) Vérifié les circuits d'autodestruction. Principal objectif, Le Complexe ICBM de Lapouta. Référence de l'objectif Yankee Golf Tango Trois Six Zéro. Engin Nucléaire de 30 Mégatonne sera réglé pour explosion  à une altitude de 10 000 pieds. En cas de non fonctionnement, l'engin de 20 Mégatonne sera largué. Au cas contraire dirigez-vous ver vos objectifs secondaires. Le Complexe militaire 7 miles Est de 'Borchare'. Référence de l'objectif Novembre Bravo X-Ray Un Zéro Huit. Réglé l'altitude d'explosion 12 000 pieds. ;B=Vous n'avez pas de temps à perdre avec ces choses et vous ne savez pas lire l'américain.;> Lire le plan 'R'?;[A) OUI, B) NON ]; 
+faux=   ****
+element=Manuelle miniaturisé combiné de conversation en Russe et de la Bible
+Liste=Objet
+SI=COND
+Pas de doute sur la raison qui à amener cette avion juste qu'ici? Ils viennent bombarder votre mère Russie, c'est donc la guerre que tout le monde redoutent. Et vous savez mieux que personne, qu'elle était la cible qui viens d'être atomisé près de chez vous. Vous connaissez une base secrète du Partie qui est à moins de 100 miles vers le nord sur la frontière de Lapouta.
+vrai=A=Vous aller au puis et en tiré 4 Litre d'eau que vous stocker dans vos préservatifs. Comme il le font dans les forces spécial.:Objet-Sachet de préservatif:Objet=4 Poche d'eau;B=Vous allez en Ville pour racheter de la Vodka et au final vous gaspillé tout votre argent dans le Red Light le plus proche.:Objet-100$ en Rouble:Objet-100$ en Or:Objet-9 Tablette de chewing-gum:Objet-Sachet de préservatif:Objet-3 Paire de bas Nylon:Objet-3 Bâton de Rouge à lèvre:Objet-Manuelle miniaturisé combiné de conversation en Russe et de la Bible;> Comment aller vous dépensez votre trésor ?;[A) Aller en expédition, B) Aller en ville ]; 
+faux=A=Vous vous lancez en route sans eau ni nourriture en conséquence et rien pour vous protégez contre les retombées. Bon après une semaine dans une terre aussi desséché que la lune vous mourez des conséquence de la radiation!:(pause):(quit);B=Vous allez en Ville pour racheter de la Vodka, mais vous n'avez pas un sous en poche. Tout le monde plient bagage même le bordel déménage, il n'y a plus de travail nulle part pour vous. Au bout d'une semaine vous voyez une nouvelle explosion cataclysmique, accompagné d'un épais nuage brillant. c'est la Fin.:(pause):(quit);> Que voulez-vous faire ?;[A) Aller en expédition, B) Aller en ville ]; 
+element=Bousole
+Liste=Objet
+SI=COND
+Vous pensez à quitter la région, car tout le monde a déjà déserté la ville et vous ne possédez plus rien. Même votre maison a brulé, vous pourriez aller à cette base du Partie pour voir ce qu'il y a peut-être à récupérer ou juste attendre la morte.
+A=Bon choix! Il faut valoriser le joueur sage qui a le sens de l'aventure. :XP+1
+B=Bon mais vous n'avez plus un Rouble. Vous videz chargeur après chargeur votre 45 sur une machine de CokaCola et récupéré des pièces de monnaie. Vous achetez un billet avec la petite monnaie et aller le plus loin possible.:Objet-Automatique calibre 45 (charger):Après une semaine, une explosion cataclysmique ébranle la région et un épais nuage lumineux bouche tout le reste un monde. Ainsi donc c'est la Fin!:Trophe=La Balle de la dernière chance:(pause):(quit)
+> Qu'aller vous faire ?
+[A) Scalveging, B) Prendre le train ]
+vrai=La route va être longue si vous voulez aller jusqu'à 'Borchare'. Prévoyez 4 jours de marche. Vous avez le secours inespéré de la boussole du pilote sans quoi vous vous seriez perdus dans le terrain maintenant très accidenté.
+faux=La route a été vraiment plus longue que vous ne l'aviez prévu au départ. Vous vous êtes perdus les trois premier jours tellement le terrain accidenté a changé depuis l'explosion. Et vous avez manquez d'eau et de nourriture après ça. Dommage que vous ne possédiez pas de Boussole, vous auriez gagné du temps et évité les blessures sur la route. Maintenant vous êtes malade de la suite d'une longue exposition inutile aux radiations.
+element=Bousole
+Liste=Objet
+SI=COND
+vrai=Vous vous sentez fiévreux avez des douleurs partout, une faiblesse généralisé... Et pire encore vous n'avez plus une goutte de Vodka! Mais vous gardez la bouteille vide. ;etape=soin
+faux=Vous vous sentez fiévreux avez des douleurs partout, une faiblesse généralisé... Et pire encore vous n'avez plus une goutte de Vodka! Mais vous gardez la bouteille vide.
+element=Antibiotique
+Liste=Objet
+SI=COND
+Ca va aller encore un petit bout de chemin.
+vrai=A=Vous fouillez la pharmacie et prenez l'antibiotique. Votre infection va s'en aller.:Objet-Antibiotique;B=Vous fouillez la pharmacie et prenez la morphine. La douleur c'est arrêté.:Objet-Morphine;C=Vous fouillez la pharmacie et prenez la vitamine. Votre scorbut est en rémission.:Objet-Pilule Vitaminé;D=Vous fouillez la pharmacie et prenez le stimulant. Votre faiblesse s'en va. :Objet-Pilule Stimulante;E=Vous fouillez la pharmacie et prenez le tranquillisant. Votre agitation c'est arrêté.:Objet-Pilule tranquillisante ;> Quel médication utiliserez-vous ?;[A) Antibiotique, B) Morphine, C) Vitamine, D) Stimulant, E) Tranquillisant ]; 
+element=soin
+Liste=etape
+SI=COND
+vrai=A=Vous fouillez la pharmacie et prenez l'antibiotique. Votre infection va s'en aller. ;B=Vous fouillez la pharmacie et prenez la morphine. La douleur c'est arrêté. ;C=Vous fouillez la pharmacie et prenez la vitamine. Votre scorbut est en rémission. ;D=Vous fouillez la pharmacie et prenez le stimulant. Votre faiblesse s'en va. ;E=Vous fouillez la pharmacie et prenez le tranquillisant. Votre agitation c'est arrêté.;> Quel médication utiliserez-vous ?;[A) Antibiotique, B) Morphine, C) Vitamine, D) Stimulant, E) Tranquillisant ]; 
+element=soin
+Liste=etape
+SI=COND
+vrai=A=Vous fouillez la pharmacie et prenez l'antibiotique. Votre infection va s'en aller. ;B=Vous fouillez la pharmacie et prenez la morphine. La douleur c'est arrêté. ;C=Vous fouillez la pharmacie et prenez la vitamine. Votre scorbut est en rémission. ;D=Vous fouillez la pharmacie et prenez le stimulant. Votre faiblesse s'en va. ;E=Vous fouillez la pharmacie et prenez le tranquillisant. Votre agitation c'est arrêté.;> Quel médication utiliserez-vous ?;[A) Antibiotique, B) Morphine, C) Vitamine, D) Stimulant, E) Tranquillisant ]; 
+element=soin
+Liste=etape
+SI=COND
+vrai=A=Vous fouillez la pharmacie et prenez l'antibiotique. Votre infection va s'en aller. ;B=Vous fouillez la pharmacie et prenez la morphine. La douleur c'est arrêté. ;C=Vous fouillez la pharmacie et prenez la vitamine. Votre scorbut est en rémission. ;D=Vous fouillez la pharmacie et prenez le stimulant. Votre faiblesse s'en va. ;E=Vous fouillez la pharmacie et prenez le tranquillisant. Votre agitation c'est arrêté.;> Quel Narcotique désirez-vous ?;[A) Antibiotique, B) Morphine, C) Vitamine, D) Stimulant, E) Tranquillisant ]; 
+element=soin
+Liste=etape
+SI=COND
+Vous êtes sur pied mais vous avez très faim et très soif!
+Objet-4 Poche d'eau
+Objet-4 Ration concentré de survie pour 1 jour
+Il vous faut traverser une dernière vallée en cratère autour de la base de 'Borchare', mais les retombés radioactifs y sont peut-être mortels. Si vous êtes d'attaque?
+vrai=A=Vous êtes chanceux que la combinaison de vol, soit équipé d'un masque à oxygène portable. Après plusieurs dizaines de miles, vous arrivez devant le Complexe Militaro de 'Borchare'. Au sommet du granite une colonne de fumée remonte des suites de l'explosion. Tous les arbres ont brulé jusqu'à la racine et le paysage est lunaire. Seul le bunker a sus résisté à la frappe nucléaire mais ses portes d'acier sont arrachées du flanc de montagne. ;B=Vous ne fait pas 3 miles vers le centre du cratère que l'aire des retombées radioactive vous asphyxie. Vous ne pouvez plus respirer, vous êtes condamné !:(quit);> Porté la Combinaison Chauffante de la Air Force ?;[A) OUI, B) NON ]; 
+faux=Malheureusement il vous faut la traversée sans protection. Quel dommage que vous n'ayez pas dégoté une plus tôt.
+element=Combinaison Chauffante
+Liste=Objet
+SI=COND
+Vous entrez dans le sous terrain. Il ne reste pas grand-chose dans le premier étage, mais une cage d'escalier vous conduit dans les niveaux inférieurs. Au 7B vous trouvez une porte électronique qui est demeuré intacte. Celle-ci est munie de deux lecteurs d'empreinte Génétique identifié chacune par une cocarde Russe et Américaine. ATTENTION! Ce terminal est aussi équipé d'un Mini-gun placé juste au-dessus de votre tête et d'une caméra à reconnaissance facial base résolution. Il faut être deux dignitaires pour passer la porte de sécurité mais ce qui se trouve de l'autre côté doit être vachement important?
+(pause)
+'Pour fin de vérification pour la reconnaissance facial, vous devez sourire et prendre l'attitude d'un dignitaire de l'armée Rouge.'
+A=OUI
+B=FACILE
+> Pirater la machine ?
+[A) OUI, B) FACILE ]
+vrai=Vous sortez un bâton de Rouge à lèvre et vous barbouillé le virage pour la caméra. Beep! Vous êtes identifié en tant que Diplomate Soviétique.
+faux=Vous ne fait pas assez Diplomate Russe pour le goût de la caméra! La Mitraillette vous arrache la tête! Vous êtes mort Boris:(quit)
+element=3 Bâton de Rouge à lèvre
+Liste=Objet
+SI=COND
+L'objet bâton de Rouge à lèvre est retire de la liste.
+'Pour fin de vérification pour la reconnaissance facial, vous devez mâché de la gum et prendre l'attitude d'un dignitaire occidental.'
+A=OUI
+B=FACILE
+> Pirater l'autre machine ?
+[A) OUI, B) FACILE ]
+vrai=Vous posez le chapeau de Cowboy sur votre tête. Beep! La caméra vous identifie en tant que Diplomate Américain.
+faux=Vous ne fait pas assez Diplomate étranger pour le goût de la caméra! La Mitraillette vous arrache la tête! Vous êtes mort Boris:(quit)
+element=Chapeau de Cowboy
+Liste=Objet
+SI=COND
+Objet-Chapeau de Cowboy
+'Maintenant que vous êtes déguisé moitié Russe moitié Américain, reste le plus dure à faire. Bye passer l'identificateur ADN avec vos deux mains. Par chance vous êtes déjà moitié Russe du côté de votre mère adoptive. Il ne vous manque que la bonne flores midichlorians ou je ne sais quoi Yankee sur la main droite.'
+vrai=A=Vous n'avez aucun autre choix, si vous voulez ouvrir cette porte, que de vous plonger la main dans une trace d'ADN américain. Pour cela vous avez malheureusement conservé une Couche Sale du pilote. Posant votre main du partie sur le lecteur de Gauche et la 'Merde' sur le lecteur de Droite. Vous reconnaissez avec dédain l'efficacité de la technologie Soviétique dans toute sa splendeur. Beep! Beep! La porte s'ouvre !?;> Oserez-vous salir les mains ?;[A) OUI, B) NON ]; 
+element=Couche sale
+Liste=Objet
+SI=COND
+Objet-Couche sale
+C'est une salle du Partie équipé en PC de Guerre. Il y a des machines télégraphiques, quelque écrans à diaporama et un téléphone Rouge, tous en panne. La seule chose digne d'intérêt est sur la grande table une pile de Document intitulé 'MAD'.
+Objet=Document 'MAD'
+vrai=A=Document Russe du 'MAD' (MUTUAL ANÉLIATION DISSUASION). La machine infernal= La dissuasion, est l'art de provoqué dans l'esprit de l'ennemie, la peur d'attaqué. Ainsi comme la décision d'explosé est prise par un procédé cybernétique irréversible exclut de toute intervention humaine. La machine infernale est simple à comprendre et terrifiante, tout à fait crédible et convaincante. ATTENTION. Tout le principe de la machine infernal n'a de sens, que si on s'en sert comme moyen de dissuasion. La machine ne devait en aucun cas être gardé secret pour forcer l'ennemie à réfléchir et décidé de na pas frappé le premier avec l'arme atomique. Conditions technique: Privé d'un ordre de mis à feu, la machine infernal est prévu pour se déclenchée automatiquement. La machine ne peut être désamorcé, car elle a été conçu pour se déclenchée si on fait la moindre tentative pour la rendre inoffensive. Enterré afin de ne pas limiter par leurs tailles, les bombes sont reliées à un grand complexe d'ordinateur. Alors un ensemble de conditions définies et de circonstances précise, dans lesquels les bombes doivent explosés, est stocker dans une mémoire électronique.:(PAUSE):Difficulté de mis en chantier aucune. Les moyens technique sont à la portée de n'importe quel pays industrialisé, même de la plus petite puissance nucléaire. Pas de difficultés. Effets à long terme. Une total anhélation de toute vie sur terre et un hiver nucléaire d'un plusieurs siècles. Quand elle explosera, elle produira une quantité assez grande de retombé radioactive pour que dans les 10 mois qui suivront la surface de la terre soit aussi déserte que la lune. Les plus récentes études américaine, démontre que les plus fortes radiations ne seraient plus mortelles au bout de 15 jours pour une bombe à Hydrogène standard. Par contre, le Cobalt Toriomgé a une période de Demi-vie en radioactivité de 93 ans.:(PAUSE):Exemple, Si vous prenez 50 bombe H dans la gamme de 100 Mégatonne et que vous les associent avec du Cobalt Toriomgé. Quand elles vont exploser, elles vont produire un nuage de gaz si danse qu'il va recouvrir la terre. Et les retombées radioactive vont conserver la moitié de leurs pouvoir meurtrier au bout de 93 ans.;B=Vous n'êtes pas curieux de le lire;> Lire le document 'MAD'?;[A) OUI, B) NON ]; 
+element=Document 'MAD'
+Liste=Objet
+SI=COND
+Au fond de la salle un ascenseur mécanique conduit tout au fond du complexe. L'affiche lumineuse indique 'Takenrishneer'. Il est encore en service. Il n'y a pas d'autre escalier pour y aller.
+A=Vous devez monter sur la plateforme et abaissé le frein pour que l'ascenseur descende par gravité. Celle-ci est très utile pour fonctionner même en cas de panne de réseau et il remonte tout seul pour refermer hermétiquement en haut de la cage d'assesseur.
+B=He pis quoi encore, vous n'alliez pas vous dégonflez après tout ce chemin ? Poussé par une sorte de pulsion vous vous retrouvez à descendre les étages.
+> Voulez-vous descendre au dernier niveau ?
+[A) OUI, B) NON ]
+Les engrenages sont couvert de rouille, vous avez beau tiré sur le frein, rien ne bouge. Il vous faudrait un corps gras pour lubrifier ces rouages grippés.
+vrai=Heureusement que vous avez trouvé tous ces bâtons de cosmétique sur le site d'écrasement. Le Rouge à lèvre fait très bien le travail sur le levier de frein si vous n'avez rien d'autre. Avec la chaleur ici la graisse fond et lubrifie parfaitement l'axe rouillé. C'est réparer!
+faux=Malheureusement vous n'avez rien de telle sur vous. C'est la fin de votre aventure:(pause):(quit)
+Liste=Objet
+element=3 Bâton de Rouge à lèvre
+SI=COND
+Objet-3 Bâton de Rouge à lèvre
+Vous êtes arrivez tout en bas au cœur du Complexe Militaro Soviétique.
+A=Arrivé tout en bas en sortent de la plate-forme vous oubliez de remettre le frein et l'ascenseur remonte par gravité. Zut c'est trop tard!
+B=Vous avez compris le truc ? Si vous descendez, privé de votre poids l'ascenseur va remonter toute seule et vous aller rester coincé en bas pour toujours. :etape=monte-charge
+> Voulez-vous explorez le sous-sol ?
+[A) OUI, B) NON, Procédez avec prudence ]
+vrai=A=Vous fabriquez une colle en mâchant les '9 Tablette de chewing-gum' et vous maintenez avec le frein de la plateforme, en position fermé. C'est étonnamment résistant!:Objet-9 Tablette de chewing-gum;B=Vous fabriquez une corde avec la douzaine de pair de 'Bas-Nylon' et vous attachez solidement le frein de la plateforme, en position fermé. C'est étonnamment résistant!:Objet-3 Paire de bas Nylon;> Vous l'immobilisé avec ?;[A) Du chewing-gum, B) Des Bas-Nylon ]; 
+faux=Bon tant pis, vous ne vouliez pas en arrivé là mais quand vous coincez votre bouteille de Vodka dans la boite d'engrenage, celle-ci reste immobilisée. Dasvidania...;Objet-Bouteille Vodka
+element=monte-charge
+Liste=etape
+SI=COND
+Vous êtes dans le silo atomique de la machine infernal. Le complexe d'ordinateur roule sur un petit réacteur nucléaire fait pour une longue durée vie et vous voyez les myriades de lampe à vide scintillées par ranger sur leur tablette métallique. La chaleur y est à peine supportable dans cet environnement cloitré sous terre sans air conditionné.
+A=D’après le clignotement des lampes et de tous les relais, quelque chose ne tourne pas rond. La machine semble être arrêtée non pas sur une solution, mais elle tourne en boucle sur une opération problématique.
+B=Vous ne voudriez tenter le diable en assaillent de débugger vous-même la machine infernal. La moindre tentative a 99.999 % des chances de se finir en holocauste pour la terre entière.
+> Chercher la cause du mal fonctionnement ?
+[A) OUI, B) NON ]
+Par contre vous voyez quelque chose qui vous semble anormal dans le fonctionnement d'une section. Un lecteur de ruban carton perforé, a fait des nœuds et tire sans arrêt pour connaitre la suite de sa séquence de boot. C'est un Miracle qu'elle se soit bloqué juste au bon moment, juste avant de fini sa mise à feu !
+A=Vous prenez soin de défaire le nœud et laissé filer le Ruban perforé dans sa tête de lecture. Les instructions demandé change tout le programme et de nouvelle vagues de signaux éclaire de sa logique, le fond du complexe ordinateur. Puis AbracadaBoom!^(Emc2). Les dizaines de bombe H sautent simultanément avec vous à l'intérieur! Un nuage de gaz au Cobalt Toriomgé, crache de la montagne telle un volcan mortel ses radiations sur le reste du monde déjà en feux! La machine de guerre infernal a finalement eu le loisir de se suicidé emportant le monde avec elle. Vous avez échoué Boris!
+B=Vous tirez un coup sec sur le Ruban perforé, le déchirent a la base. Un petit bout de code entre malgré tout dans le lecteur et scintillement s'immobilise partout à la fois dans le complexe ordinateur. Une ampoule s'allume dans le panneau de câblage, vous lisez en Russe 'Rabâcha'! Une sorte de Contre ordre à fait ignoré l'avis de 'MAD' suite au bombardement de ce matin! Elle s'est mise en route comme prévu, mais a été incapable d'explosé car sa mémoire électronique a oublié les instructions et ne saura plus jamais comment faire grâce à Vous! Bravo Boris, vous venez de sauvé le monde d'une complète destruction. Il ne vous reste plus qu'a revenir à la surface et repeuplé le Monde xxx.
+> Jouer avec le lecteur ?
+[A) Replacé le Ruban, B) Déchirez le programme. ]
+
+  ******
+**********
+ ********
+    **
+   ****
+  LA FIN
+(pause)
+A='Conseille, récupéré un maximum de chose sur le pilot et n'aller pas en Ville'.:(RAZ):(pause)
+B=sourcefile=Menu
+> Voulez-vous recommencé une partie ?
+[A) OUI, B) NON ]
+Compile=1

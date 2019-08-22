@@ -1,0 +1,17 @@
+vrai= ;Vous lancez 1d10.; 
+element=0
+Liste=Score
+SI=VAR
+Score=?
+faux=
+vrai=Coup Critique!
+element=10
+Liste=Score
+SI=VAR
+vrai=Épic Fail!
+element=1
+Liste=Score
+SI=VAR
+(Score)
+(pause)
+Compile=1

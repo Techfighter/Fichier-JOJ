@@ -1,0 +1,373 @@
+#Structure Classique version 1.9 en 2017. Avantage 5 étapes a deviné l'ordre.
+
+#IA OU LED
+Mission 42.
+Rapport Météo: Matin Ensoleilé 17 degré Celsius, ciel varaible et humiditée moyen.
+Rapport Situation: Vous entrez dans l'espace aérien d'une zone contrôlé par l'OSP, le GPS vous a conduit jusqu'ici pour que vous récupériez un contener classifié. L'image satellite vient de détecter une faille tempotrelle et un centre d'une curieuse formation nuageuse, que vous devriez visiter par priorité. Ca ne vous pausera pas de problème avec votre nouveau moyen de transport.
+Vous êtes maintenant en mission officiel. Utilisez le Quantum autand que vous le pouvez et s'il est détruit ou prit par l'ennemie, ne vous en faite pas, une boucle temporelle vous le rendra.
+Objectif, Se familiarisé avec le modul Quantum pour reconnaitre le terrain en d'autre temps ou sur de grande distance, les années 80.
+A=Vous Commencé l'entrainement en situation réel.
+>  Voler jusque dans la brêche Temporelle ?
+[A) Remontez le temps. ]
+
+'Titre.'
+
+#Le Drone pourra bouger de façon automatique si vous le laissez aller. Il peux vous suivre n'importe où avec son module traquing. Sa fonction est de filmé a vole d'oiseau en grand #angle et vous fournir des informations sur la position ennemie sans être repéré. Il enregistre le son a distance et les communications radio de l'ennemie.
+(pause)
+#Une Stratégie furtive consiste à envoyé le Drone en reconnaissance et de le càché d'illusion à la fois. Il se peut qu'un ennemi détecte le Drone et le détruis, à se moment vous devez y aller discrètement et le réparar.
+1. .50%
+2. .50%
+3. .50%
+4. .50%
+5. .50%
+A=. :Etape=
+B=réussie.
+C=réussie.
+D=réussie.
+E=réussie.
+> Quelle stratégie vous adopterez ici ?
+[A) , B) , C) , D) , E) . ]
+Score=0
+vrai=Score+1;Etape-
+faux=. Correction en coure...Done.:L'IA s'en est chargé pour vous,.
+element=
+liste=Etape
+SI=COND
+A=réussie.
+B=. :Etape=
+C=réussie.
+D=réussie.
+E=réussie.
+> Quelle stratégie vous adopterez ici ?
+[A) , B) , C) , D) , E) . ]
+vrai=Score+1;Etape-
+faux=. Correction en coure...Done.:L'IA s'en est chargé pour vous,.
+element=
+liste=Etape
+SI=COND
+A=réussie.
+B=réussie.
+C=. :Etape=
+D=réussie.
+E=réussie.
+> Quelle stratégie vous adopterez ici ?
+[A) , B) , C) , D) , E) . ]
+vrai=Score+1;Etape-
+faux=. Correction en coure...Done.:L'IA s'en est chargé pour vous,.
+element=
+liste=Etape
+SI=COND
+A=réussie.
+B=réussie.
+C=réussie.
+D=. :Etape=
+E=réussie.
+> Quelle stratégie vous adopterez ici ?
+[A) , B) , C) , D) , E) . ]
+vrai=Score+1;Etape-
+faux=. Correction en coure...Done.:L'IA s'en est chargé pour vous,.
+element=
+liste=Etape
+SI=COND
+A=réussie.
+B=réussie.
+C=réussie.
+D=réussie.
+E=. :Etape=
+> Quelle stratégie vous adopterez ici ?
+[A) , B) , C) , D) , E) . ]
+vrai=Score+1;Etape-
+faux=. Correction en coure...Done.:L'IA s'en est chargé pour vous,.
+element=
+liste=Etape
+SI=COND
+vrai=Trophe=Bon
+faux=Trophe=Moyen
+element=5
+liste=Score
+SI=VAR
+score=0
+
+#1 Alerte
+faux=Vous êtes survolé par un Drone ennemi. Il vous a détecté avec sa caméra et maintenant il disparait en altitude. Alerte! Vous avez été repéré!:Etape=alert2
+element=alert2
+Liste=Etape
+SI=COND
+vrai=A=:Etape-alert2;B=:Etape-alert2;C=:Etape-alert2;> Ils arrivent, qu'allez-vous faire ?;[A) , B) , C)  ]; 
+faux=
+element=alert2
+Liste=Etape
+SI=COND
+#2
+#3
+
+Le clame est revenu et il n'y a plus d'ennemie dans la zone.
+Pour votre débrouillardise et pour être resté stratégique dans votre infiltration a distance. Vous avez sus utilisé le transport furtif et vos connaissances tactiques pour vous débarrassé des gardes armés. Dans le centre de recherche au fond de vous trouvez du matériel de développement IA ou LED...
+Trophe=
+Etape=Sauvetage
+(TROPHE)
+A=LV=42:Etape=42:sourcefile=missionUp
+B=
+C=
+D=
+E=
+vrai=
+faux=
+element=
+Liste=
+> Appuyer sur A pour Retour.
+[A) Continué ]
+
+FIN
+
+#version 2.0 Test avec la nouvelle structure imbriqué Choix 5x5. l'Avantage est que vous êtez libre 25 choix différent sur une seul étape scénario. Le désavantage est que c'est plus complexe a construir en cas de séquence cond.
+
+#Faire bien attension format ';:' pour les variables multiple ou '; ' Fin de chaine concaténé et pas d'espaces innutil surtout en copié collé.
+#Un petit compte de AP apparait quand vous choisisez (le A du A) ou (le B du B) ect...Fonctionne avec ':' a l'intérieur d'un choix.
+#Mis en situation.
+Vous êtes en situation tactique et un énemis armé se trouve devant vous a 100 m. Il ne vous a pas encore appercu.
+#Options.
+A=Etape=A
+B=Etape=B
+C=Etape=C
+D=Etape=D
+E=Etape=E
+> Choisisez une Unité ?
+[A) Espion, B) GPS, C) Drone, D) Avion, E) Satelite. ]
+#Espion
+Vrai=A=Vous explorez la zone a pied.:AP+1;B=Vous sautez un mur, une rivière, un fauset.;C=Vous courez vous mètre a l'abrit.;D=Vous fouillez attentivement la zone a la recherche d'objets.;E=vous rampez par terre, pour ne pas être détecté.;> Choisissez une Action.;[A) Reconnaissance, B) Saut obstacle, C) Rapidité, D) Rechercher, E) Se coucher par Terre. ];Etape-A; 
+element=A
+Liste=Etape
+SI=COND
+#GPS
+Vrai=A=Vous consultez l'image satelite pour chercher des objets dans la zone.;B=Vous activez la projection d'image au sol pour cadrillé la zone avec le relief topographique.:AP+1;C=vous activez la projection d'image au sol pour marqué d'une fléche la direction a prendre.;D=Vous illuminez la zone pour bien voire tout se qui s'y trouve, plus claire quand plain jour.;E=Vous obscurcisez la zone pour la rendre plus sombre que la nuit.;> Choisissez une Action.;[A) Détection Objet, B) Topographie, C) Path Finder, D) Éclairsisement, E) Obscursisement. ];Etape-B; 
+element=B
+Liste=Etape
+SI=COND
+#Drone
+Vrai=A=Vous demandez au drone de vous faire un peu de camouflage dans la zone.;B=Vous demandez au Drone de vous scanner la zone pour trouvez des objets.;C=Vous demandez au Drone de ramaser des objets dans la zone.:AP+1;D=vous demandez au Drone de réparé quelque chose dans la zone.;E=Vous demandez au Drone de vous faire un soin médical au besoin.;> Choisissez une Action.;[A) Camouflage, B) Scane Zone, C) Bras Robot, D) Réparation, E) Médical. ];Etape-C; 
+element=C
+Liste=Etape
+SI=COND
+#Avion
+Vrai=A=Vous demandez a l'avion de vous suivre de haut et de faire du camouflage dans la zone.;B=Vous demandez a l'avion de vous suivre de haut et de faire du brouillage dans la région.;C=Vous demandez a l'avion de vous suivre de haut et de scaner l'environement pour trouvez des élément non naturelle.;D=vous demandez a l'avion de vous suivre de près et de déplyer son crochet pour vous faire entrer a bord.:AP+1;E=vous demandez a l'avion de se positionné près pour le parachutage, vous, le Drone.;> Choisissez une Action.;[A) Camouflage, B) Brouillage, C) Scan Région, D) Crochet, E) Parachuter. ];Etape-D; 
+element=D
+Liste=Etape
+SI=COND
+#Satelite
+Vrai=A=Vous acrochez la position gps d'une personne dans la zone.;B=Vous faite une capture tri-dimensionnel de l'individu et de ses mouvements.;C=Vous enregistrez dans le big data tout les angles numérisé de l'individu.;D=Vous demandez au satelite de flasher l'individi pour lui faire perdre connéssence ou l'aveuglé.;E=Vous acrochez votre position gps dans la zone et demandez au système de projection de vous faire prendre l'apparence de quelqu'un d'aute.:AP+1;> Choisissez une Action.;[A) Detection, B) Capture, C) Enregistrer, D) Neutraliser, E) Transformation. ];Etape-E; 
+element=E
+Liste=Etape
+SI=COND
+(pause)
+(AP)
+
+#version 2.1 Structure Combiné, 25 Option avec Séquence étape possible
+
+#Mis en situation.
+#étape 1
+#Options
+A=Etape=A
+B=Etape=B
+C=Etape=C
+D=Etape=D
+E=Etape=E
+> Choisisez une Unité ?
+[A) Espion, B) GPS, C) Drone, D) Avion, E) Satelite. ]
+#Espion
+Vrai=A=;B=;C=;D=;E=;> Choisissez une Action.;[A) Reconnaissance, B) Saut obstacle, C) Rapidité, D) Rechercher, E) Se coucher par Terre. ];Etape-A; 
+element=A
+Liste=Etape
+SI=COND
+#GPS
+Vrai=A=;B=;C=;D=;E=;> Choisissez une Action.;[A) Détection Objet, B) Topographie, C) Path Finder, D) Éclairsisement, E) Obscursisement. ];Etape-B; 
+element=B
+Liste=Etape
+SI=COND
+#Drone
+Vrai=A=;B=;C=;D=;E=;> Choisissez une Action.;[A) Camouflage, B) Scane Zone, C) Bras Robot, D) Réparation, E) Médical. ];Etape-C; 
+element=C
+Liste=Etape
+SI=COND
+#Avion
+Vrai=A=;B=;C=;D=;E=;> Choisissez une Action.;[A) Camouflage, B) Brouillage, C) Scan Région, D) Crochet, E) Parachuter. ];Etape-D; 
+element=D
+Liste=Etape
+SI=COND
+#Satelite
+Vrai=A=Etape=;B=;C=;D=;E=;> Choisissez une Action.;[A) Détection énnemi, B) Capture, C) Enregistrer, D) Neutraliser, E) Transformation. ];Etape-E; 
+element=E
+Liste=Etape
+SI=COND
+Score=0
+vrai=Score+1;Etape-
+faux=. Correction en coure...Done.:L'IA s'en est chargé pour vous,.
+element=
+liste=Etape
+SI=COND
+#étape 2
+#Options
+A=Etape=A
+B=Etape=B
+C=Etape=C
+D=Etape=D
+E=Etape=E
+> Choisisez une Unité ?
+[A) Espion, B) GPS, C) Drone, D) Avion, E) Satelite. ]
+#Espion
+Vrai=A=;B=;C=;D=;E=;> Choisissez une Action.;[A) Reconnaissance, B) Saut obstacle, C) Rapidité, D) Rechercher, E) Se coucher par Terre. ];Etape-A; 
+element=A
+Liste=Etape
+SI=COND
+#GPS
+Vrai=A=;B=;C=;D=;E=;> Choisissez une Action.;[A) Détection Objet, B) Topographie, C) Path Finder, D) Éclairsisement, E) Obscursisement. ];Etape-B; 
+element=B
+Liste=Etape
+SI=COND
+#Drone
+Vrai=A=;B=;C=;D=;E=;> Choisissez une Action.;[A) Camouflage, B) Scane Zone, C) Bras Robot, D) Réparation, E) Médical. ];Etape-C; 
+element=C
+Liste=Etape
+SI=COND
+#Avion
+Vrai=A=;B=;C=;D=;E=;> Choisissez une Action.;[A) Camouflage, B) Brouillage, C) Scan Région, D) Crochet, E) Parachuter. ];Etape-D; 
+element=D
+Liste=Etape
+SI=COND
+#Satelite
+Vrai=A=;B=Etape=;C=;D=;E=;> Choisissez une Action.;[A) Détection énnemi, B) Capture, C) Enregistrer, D) Neutraliser, E) Transformation. ];Etape-E; 
+element=E
+Liste=Etape
+SI=COND
+Score=0
+vrai=Score+2;Etape-
+faux=. Correction en coure...Done.:L'IA s'en est chargé pour vous,.
+element=
+liste=Etape
+SI=COND
+#étape 3
+#Options
+A=Etape=A
+B=Etape=B
+C=Etape=C
+D=Etape=D
+E=Etape=E
+> Choisisez une Unité ?
+[A) Espion, B) GPS, C) Drone, D) Avion, E) Satelite. ]
+#Espion
+Vrai=A=;B=;C=;D=;E=;> Choisissez une Action.;[A) Reconnaissance, B) Saut obstacle, C) Rapidité, D) Rechercher, E) Se coucher par Terre. ];Etape-A; 
+element=A
+Liste=Etape
+SI=COND
+#GPS
+Vrai=A=;B=;C=;D=;E=;> Choisissez une Action.;[A) Détection Objet, B) Topographie, C) Path Finder, D) Éclairsisement, E) Obscursisement. ];Etape-B; 
+element=B
+Liste=Etape
+SI=COND
+#Drone
+Vrai=A=;B=;C=;D=;E=;> Choisissez une Action.;[A) Camouflage, B) Scane Zone, C) Bras Robot, D) Réparation, E) Médical. ];Etape-C; 
+element=C
+Liste=Etape
+SI=COND
+#Avion
+Vrai=A=;B=;C=;D=;E=;> Choisissez une Action.;[A) Camouflage, B) Brouillage, C) Scan Région, D) Crochet, E) Parachuter. ];Etape-D; 
+element=D
+Liste=Etape
+SI=COND
+#Satelite
+Vrai=A=;B=;C=Etape=;D=;E=;> Choisissez une Action.;[A) Détection énnemi, B) Capture, C) Enregistrer, D) Neutraliser, E) Transformation. ];Etape-E; 
+element=E
+Liste=Etape
+SI=COND
+Score=0
+vrai=Score+4;Etape-
+faux=. Correction en coure...Done.:L'IA s'en est chargé pour vous,.
+element=
+liste=Etape
+SI=COND
+#étape 4
+#Options
+A=Etape=A
+B=Etape=B
+C=Etape=C
+D=Etape=D
+E=Etape=E
+> Choisisez une Unité ?
+[A) Espion, B) GPS, C) Drone, D) Avion, E) Satelite. ]
+#Espion
+Vrai=A=;B=;C=;D=;E=;> Choisissez une Action.;[A) Reconnaissance, B) Saut obstacle, C) Rapidité, D) Rechercher, E) Se coucher par Terre. ];Etape-A; 
+element=A
+Liste=Etape
+SI=COND
+#GPS
+Vrai=A=;B=;C=;D=;E=;> Choisissez une Action.;[A) Détection Objet, B) Topographie, C) Path Finder, D) Éclairsisement, E) Obscursisement. ];Etape-B; 
+element=B
+Liste=Etape
+SI=COND
+#Drone
+Vrai=A=;B=;C=;D=;E=;> Choisissez une Action.;[A) Camouflage, B) Scane Zone, C) Bras Robot, D) Réparation, E) Médical. ];Etape-C; 
+element=C
+Liste=Etape
+SI=COND
+#Avion
+Vrai=A=;B=;C=;D=;E=;> Choisissez une Action.;[A) Camouflage, B) Brouillage, C) Scan Région, D) Crochet, E) Parachuter. ];Etape-D; 
+element=D
+Liste=Etape
+SI=COND
+#Satelite
+Vrai=A=;B=;C=;D=Etape=;E=;> Choisissez une Action.;[A) Détection énnemi, B) Capture, C) Enregistrer, D) Neutraliser, E) Transformation. ];Etape-E; 
+element=E
+Liste=Etape
+SI=COND
+Score=0
+vrai=Score+8;Etape-
+faux=. Correction en coure...Done.:L'IA s'en est chargé pour vous,.
+element=
+liste=Etape
+SI=COND
+#étape 5
+#Options
+A=Etape=A
+B=Etape=B
+C=Etape=C
+D=Etape=D
+E=Etape=E
+> Choisisez une Unité ?
+[A) Espion, B) GPS, C) Drone, D) Avion, E) Satelite. ]
+#Espion
+Vrai=A=;B=;C=;D=;E=;> Choisissez une Action.;[A) Reconnaissance, B) Saut obstacle, C) Rapidité, D) Rechercher, E) Se coucher par Terre. ];Etape-A; 
+element=A
+Liste=Etape
+SI=COND
+#GPS
+Vrai=A=;B=;C=;D=;E=;> Choisissez une Action.;[A) Détection Objet, B) Topographie, C) Path Finder, D) Éclairsisement, E) Obscursisement. ];Etape-B; 
+element=B
+Liste=Etape
+SI=COND
+#Drone
+Vrai=A=;B=;C=;D=;E=;> Choisissez une Action.;[A) Camouflage, B) Scane Zone, C) Bras Robot, D) Réparation, E) Médical. ];Etape-C; 
+element=C
+Liste=Etape
+SI=COND
+#Avion
+Vrai=A=;B=;C=;D=;E=;> Choisissez une Action.;[A) Camouflage, B) Brouillage, C) Scan Région, D) Crochet, E) Parachuter. ];Etape-D; 
+element=D
+Liste=Etape
+SI=COND
+#Satelite
+Vrai=A=;B=;C=;D=;E=Etape=;> Choisissez une Action.;[A) Détection énnemi, B) Capture, C) Enregistrer, D) Neutraliser, E) Transformation. ];Etape-E; 
+element=E
+Liste=Etape
+SI=COND
+Score=0
+vrai=Score+16;Etape-
+faux=. Correction en coure...Done.:L'IA s'en est chargé pour vous,.
+element=
+liste=Etape
+SI=COND
+vrai=Trophe=Succes
+faux=Trophe=Fail
+element=31
+liste=Score
+SI=VAR
+score=0
